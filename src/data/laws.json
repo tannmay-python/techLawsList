@@ -3259,8 +3259,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://www.dot.gov.in/actrules/telecommunications-administration-digital-bharat-nidhi-rules-2024",
-  "sourceExact": true,
+  "sourceUrl": "https://www.google.com/search?q=%22Telecommunications+%28Administration+of+Digital+Bharat+Nidhi%29+Rules%2C+2024%22+dot.gov.in+%2F+trai.gov.in",
+  "sourceExact": false,
   "entity": null,
   "lineageId": null
  },
@@ -3299,7 +3299,7 @@
   "international": null,
   "intlRegimes": [],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://dot.gov.in/sites/default/files/Telecommunications%20Right%20of%20Way%20Rules%202024.pdf?download=1",
+  "sourceUrl": "https://eservices.dot.gov.in/sites/default/files/circular-notifications/Telecommunications_Act_2023_RoW_rules_2024_Final.pdf",
   "sourceExact": true,
   "entity": null,
   "lineageId": "row-rules"
@@ -3342,8 +3342,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://www.dot.gov.in/actrules/telecommunications-telecom-cyber-security-rules-2024",
-  "sourceExact": true,
+  "sourceUrl": "https://www.google.com/search?q=%22Telecommunications+%28Telecom+Cyber+Security%29+Rules%2C+2024%22+dot.gov.in+%2F+trai.gov.in",
+  "sourceExact": false,
   "entity": null,
   "lineageId": null
  },
@@ -3424,8 +3424,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://dot.gov.in/sites/default/files/Telecommunications%20(Temporary%20Suspension%20of%20Services)%20Rules,%202024.pdf?download=1",
-  "sourceExact": true,
+  "sourceUrl": "https://www.google.com/search?q=%22Telecommunications+%28Temporary+Suspension+of+Services%29+Rules%2C+2024%22+dot.gov.in+%2F+trai.gov.in",
+  "sourceExact": false,
   "entity": null,
   "lineageId": null
  },
@@ -3464,8 +3464,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://www.dot.gov.in/actrules/telecommunications-procedures-and-safeguards-lawful-interception-messages-rules-2024",
-  "sourceExact": true,
+  "sourceUrl": "https://www.google.com/search?q=%22Telecommunications+%28Procedures+and+Safeguards+for+Lawful+Interception+of+Messages%29+Rules%2C+2024%22+dot.gov.in+%2F+trai.gov.in",
+  "sourceExact": false,
   "entity": null,
   "lineageId": null
  },
@@ -3507,8 +3507,8 @@
    "SOLAS Convention"
   ],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://dot.gov.in/actrules/gazette-notification-telecommunications-commercial-radio-operator-certificate-proficiency",
-  "sourceExact": true,
+  "sourceUrl": "https://www.google.com/search?q=%22Telecommunications+%28Commercial+Radio+Operator+Certificate+of+Proficiency+to+Operate+GMDSS%29+Rules%2C+2024%22+dot.gov.in+%2F+trai.gov.in",
+  "sourceExact": false,
   "entity": null,
   "lineageId": null
  },
@@ -3549,8 +3549,8 @@
    "ITU Radio Regulations"
   ],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://dot.gov.in/actrules/gazette-notification-telecommunications-amateur-services-rules-2024",
-  "sourceExact": true,
+  "sourceUrl": "https://www.google.com/search?q=%22Telecommunications+%28Amateur+Services%29+Rules%2C+2024%22+dot.gov.in+%2F+trai.gov.in",
+  "sourceExact": false,
   "entity": null,
   "lineageId": null
  },
@@ -3791,8 +3791,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://dot.gov.in/actrules/telecom-disputes-settlement-and-appellate-tribunal-officers-recruitment-rules-2023",
-  "sourceExact": true,
+  "sourceUrl": "https://www.google.com/search?q=%22Telecom+Disputes+Settlement+and+Appellate+Tribunal+%28Officers%29+Recruitment+Rules%2C+2023%22+dot.gov.in+%2F+trai.gov.in",
+  "sourceExact": false,
   "entity": null,
   "lineageId": null
  },
@@ -4077,7 +4077,7 @@
   "international": null,
   "intlRegimes": [],
   "source": "mib.gov.in",
-  "sourceUrl": "https://www.tec.gov.in/mandatory-testing-and-certification-of-telecom-equipments-mtcte",
+  "sourceUrl": "https://eservices.dot.gov.in/mtcte",
   "sourceExact": true,
   "entity": null,
   "lineageId": null
@@ -4277,7 +4277,7 @@
   "international": null,
   "intlRegimes": [],
   "source": "indiacode.nic.in",
-  "sourceUrl": "https://www.indiacode.nic.in/bitstream/123456789/1959/3/A1990-25.pdf",
+  "sourceUrl": "https://upload.indiacode.nic.in/view-casepdf?type=act&id=AC_CEN_29_41_00005_199025_1517807323084",
   "sourceExact": true,
   "entity": null,
   "lineageId": null
@@ -4477,8 +4477,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://dot.gov.in/circulars/gazette-notification-indian-telegraph-right-way-amendment-rules-2017",
-  "sourceExact": true,
+  "sourceUrl": "https://www.google.com/search?q=%22Indian+Telegraph+Right+of+Way+%28Amendment%29+Rules%2C+2017%22+dot.gov.in+%2F+trai.gov.in",
+  "sourceExact": false,
   "entity": null,
   "lineageId": "row-rules"
  },
@@ -4517,8 +4517,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://dot.gov.in/actrules/indian-telegraph-right-way-amendment-rules-2021-0",
-  "sourceExact": true,
+  "sourceUrl": "https://www.google.com/search?q=%22Indian+Telegraph+Right+of+Way+%28Amendment%29+Rules%2C+2021%22+dot.gov.in+%2F+trai.gov.in",
+  "sourceExact": false,
   "entity": null,
   "lineageId": "row-rules"
  },
@@ -4557,8 +4557,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://dot.gov.in/actrules/indian-telegraph-right-way-amendment-rules-2022",
-  "sourceExact": true,
+  "sourceUrl": "https://www.google.com/search?q=%22Indian+Telegraph+Right+of+Way+%28Amendment%29+Rules%2C+2022%22+dot.gov.in+%2F+trai.gov.in",
+  "sourceExact": false,
   "entity": null,
   "lineageId": "row-rules"
  },
@@ -4597,8 +4597,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://dot.gov.in/actrules/indian-telegraph-right-way-rules-2016-amended-2017-2021-and-2022-0",
-  "sourceExact": true,
+  "sourceUrl": "https://www.google.com/search?q=%22Indian+Telegraph+Right+of+Way+Rules%2C+2016+-+as+amended+in+2017%2C+2021+and+2022%22+dot.gov.in+%2F+trai.gov.in",
+  "sourceExact": false,
   "entity": null,
   "lineageId": "row-rules"
  },
@@ -4637,8 +4637,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://dot.gov.in/actrules/indian-telegraph-right-way-amendment-rules-2023",
-  "sourceExact": true,
+  "sourceUrl": "https://www.google.com/search?q=%22Indian+Telegraph+Right+of+Way+%28Amendment%29+Rules%2C+2023%22+dot.gov.in+%2F+trai.gov.in",
+  "sourceExact": false,
   "entity": null,
   "lineageId": "row-rules"
  },
@@ -4677,8 +4677,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://gatishaktisanchar.gov.in/uploads/files/Consolidated_Indian_Telegraph_Right_of_Way_Rules.pdf",
-  "sourceExact": true,
+  "sourceUrl": "https://www.google.com/search?q=%22Consolidated+Indian+Telegraph+Right+of+Way+Rules%2C+2016+-+as+amended+in+2017%2C+2021%2C+2022%2C+2023%22+dot.gov.in+%2F+trai.gov.in",
+  "sourceExact": false,
   "entity": null,
   "lineageId": "row-rules"
  },
@@ -4842,7 +4842,7 @@
   "international": null,
   "intlRegimes": [],
   "source": "indiacode.nic.in",
-  "sourceUrl": "https://www.indiacode.nic.in/bitstream/123456789/2065/1/A2005-22.pdf",
+  "sourceUrl": "https://www.indiacode.nic.in/bitstream/123456789/19840/1/right_yo_information_act.pdf",
   "sourceExact": true,
   "entity": null,
   "lineageId": null
@@ -5090,8 +5090,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "meity.gov.in",
-  "sourceUrl": "https://www.meity.gov.in/content/draft-national-data-governance-framework-policy",
-  "sourceExact": true,
+  "sourceUrl": "https://www.google.com/search?q=%22Draft+National+Data+Governance+Framework+Policy%22+meity.gov.in",
+  "sourceExact": false,
   "entity": null,
   "lineageId": null
  },
@@ -6775,8 +6775,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "meity.gov.in",
-  "sourceUrl": "https://www.meity.gov.in/content/policy-use-it-resources",
-  "sourceExact": true,
+  "sourceUrl": "https://www.google.com/search?q=%22Gazette+notification+of+the+Policy+on+Use+of+IT+Resources+of+the+Government+of+India%22+meity.gov.in",
+  "sourceExact": false,
   "entity": null,
   "lineageId": null
  },
@@ -6975,7 +6975,7 @@
   "international": null,
   "intlRegimes": [],
   "source": "indiacode.nic.in",
-  "sourceUrl": "https://www.indiacode.nic.in/bitstream/123456789/1998/1/200037.pdf",
+  "sourceUrl": "https://www.indiacode.nic.in/handle/123456789/1998?view_type=browse",
   "sourceExact": true,
   "entity": null,
   "lineageId": null
@@ -7015,7 +7015,7 @@
   "international": null,
   "intlRegimes": [],
   "source": "ism.gov.in / meity.gov.in",
-  "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1808676",
+  "sourceUrl": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1808676",
   "sourceExact": true,
   "entity": null,
   "lineageId": null
@@ -7261,7 +7261,7 @@
   "international": null,
   "intlRegimes": [],
   "source": "dst.gov.in",
-  "sourceUrl": "https://dst.gov.in/news/national-geospatial-policy",
+  "sourceUrl": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/feb/doc2025227509401.pdf",
   "sourceExact": true,
   "entity": null,
   "lineageId": null
@@ -7581,8 +7581,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dst.gov.in / meity.gov.in",
-  "sourceUrl": "https://www.meity.gov.in/content/national-strategy-on-blockchain",
-  "sourceExact": true,
+  "sourceUrl": "https://www.google.com/search?q=%22National+Strategy+on+Blockchain+%2F+National+Blockchain+Framework%2C+2021%22+dst.gov.in+%2F+meity.gov.in",
+  "sourceExact": false,
   "entity": null,
   "lineageId": null
  },
@@ -7621,8 +7621,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dst.gov.in / meity.gov.in",
-  "sourceUrl": "https://www.meity.gov.in/content/gi-cloud-meghraj",
-  "sourceExact": true,
+  "sourceUrl": "https://www.google.com/search?q=%22GI+Cloud+%28MeghRaj%29+Policy%2C+2014%22+dst.gov.in+%2F+meity.gov.in",
+  "sourceExact": false,
   "entity": null,
   "lineageId": null
  },
@@ -7792,7 +7792,7 @@
   "international": null,
   "intlRegimes": [],
   "source": "inspace.gov.in / isro.gov.in",
-  "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2007876",
+  "sourceUrl": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2007876",
   "sourceExact": true,
   "entity": null,
   "lineageId": null
@@ -7835,7 +7835,7 @@
    "Nagoya Protocol"
   ],
   "source": "indiacode.nic.in",
-  "sourceUrl": "https://www.indiacode.nic.in/bitstream/123456789/2046/1/200318.pdf",
+  "sourceUrl": "https://www.indiacode.nic.in/bitstream/123456789/2046/4/a2003-18.pdf",
   "sourceExact": true,
   "entity": null,
   "lineageId": "biodiversity"
@@ -7965,7 +7965,7 @@
    "Cartagena Protocol on Biosafety"
   ],
   "source": "moef.gov.in / dbtindia.gov.in",
-  "sourceUrl": "https://ibkp.dbtindia.gov.in/DBT_Content_Test/CMS/Guidelines/20181115121526033_Rules-for-the-manufacture-use-import-export-and-storage-1989.pdf",
+  "sourceUrl": "http://nbaindia.org/uploaded/Biodiversityindia/Legal/28.%20Rules%20for%20the%20manufacture,%20use%20import%20export%20and%20storage%20of%20hazardous%20microorganism%20genetically%20engineered%20organisms%20or%20cells,%201989.pdf",
   "sourceExact": true,
   "entity": null,
   "lineageId": null
@@ -8005,7 +8005,7 @@
   "international": null,
   "intlRegimes": [],
   "source": "moef.gov.in / dbtindia.gov.in",
-  "sourceUrl": "https://dbtindia.gov.in/news-features/cabinet-approves-bioe3-biotechnology-economy-environment-and-employment-policy",
+  "sourceUrl": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/aug/doc2024828381901.pdf",
   "sourceExact": true,
   "entity": null,
   "lineageId": null
@@ -8045,7 +8045,7 @@
   "international": null,
   "intlRegimes": [],
   "source": "moef.gov.in / dbtindia.gov.in",
-  "sourceUrl": "https://sansad.in/getFile/rsnew/Committee_site/Committee_File/BillFile/Bill/14/126/DNAbill.pdf",
+  "sourceUrl": "https://prsindia.org/files/bills_acts/bills_parliament/2019/The%20DNA%20Technology%20(Use%20and%20Application)%20Regulation%20Bill,%202019%20Bill%20Text.pdf",
   "sourceExact": true,
   "entity": null,
   "lineageId": null
@@ -8129,7 +8129,7 @@
    "Convention on Supplementary Compensation"
   ],
   "source": "indiacode.nic.in",
-  "sourceUrl": "https://www.indiacode.nic.in/bitstream/123456789/2084/1/201038.pdf",
+  "sourceUrl": "https://www.indiacode.nic.in/bitstream/123456789/2084/5/A2010-38.pdf",
   "sourceExact": true,
   "entity": null,
   "lineageId": null
@@ -8171,7 +8171,7 @@
    "WTO"
   ],
   "source": "indiacode.nic.in",
-  "sourceUrl": "https://www.indiacode.nic.in/bitstream/123456789/1947/3/A1992-22.pdf",
+  "sourceUrl": "https://www.indiacode.nic.in/handle/123456789/1947?view_type=browse",
   "sourceExact": true,
   "entity": null,
   "lineageId": null
@@ -8301,7 +8301,7 @@
   "international": null,
   "intlRegimes": [],
   "source": "indiacode.nic.in",
-  "sourceUrl": "https://www.indiacode.nic.in/bitstream/123456789/1421/3/A1957-67.pdf",
+  "sourceUrl": "https://www.indiacode.nic.in/bitstream/123456789/13122/1/67_of_1957.pdf",
   "sourceExact": true,
   "entity": null,
   "lineageId": "mmdr"
@@ -8543,7 +8543,7 @@
   "international": null,
   "intlRegimes": [],
   "source": "dgca.gov.in",
-  "sourceUrl": "https://www.dgca.gov.in/digigov-portal/jsp/dgca/homePage/viewPDF.jsp?page=InventoryList/headerblock/drones/Drone+Rules+2021.pdf",
+  "sourceUrl": "https://thc.nic.in/Central%20Governmental%20Rules/Drone%20Rules,%202021.pdf",
   "sourceExact": true,
   "entity": null,
   "lineageId": null
