@@ -1,59 +1,61 @@
-import type { Domain, InstrumentType, Lens } from "../types";
+import type { Group, Lens } from "../types";
 
-/**
- * Domain colours — anchored by the two brand colours (Llama plum + Marigold)
- * and rounded out with six muted, harmonious, colourblind-distinguishable
- * hues that read well on the pale-yellow paper ground.
- */
-export const DOMAIN_COLORS: Record<Domain, string> = {
-  "IT & Cyber Security": "#620d3c", // Llama plum (the giant)
-  "Banking & Finance": "#1f6f6b", // teal
-  Healthcare: "#b23a48", // rosewood
-  Telecom: "#2b5a8c", // deep blue
-  "Broadcasting & Media": "#9c5b2a", // terracotta
-  "Data Protection & Privacy": "#6a4c93", // violet
-  "Identity/Aadhaar": "#f1a222", // Marigold
-  "E-governance": "#4a7c59", // green
+/** 8 super-domain colours, anchored by Llama (#620d3c) + Marigold (#f1a222). */
+export const GROUP_COLORS: Record<Group, string> = {
+  "Core IT & Cyber": "#620d3c", // Llama plum
+  "Digital Identity": "#f1a222", // Marigold
+  "Telecom & Media": "#2f5d8a", // deep blue
+  "Data & Privacy": "#6a4c93", // violet
+  "Finance & Fintech": "#1f7a70", // teal
+  "Frontier Tech": "#c65a1e", // burnt orange
+  "Strategic & Deep-Tech": "#9c2f45", // rosewood
+  "E-Governance": "#4a7c59", // green
 };
 
-export const DOMAIN_ORDER: Domain[] = [
-  "IT & Cyber Security",
-  "Data Protection & Privacy",
-  "Identity/Aadhaar",
-  "Banking & Finance",
-  "Telecom",
-  "Broadcasting & Media",
-  "Healthcare",
-  "E-governance",
+export const GROUP_ORDER: Group[] = [
+  "Core IT & Cyber",
+  "Digital Identity",
+  "Telecom & Media",
+  "Data & Privacy",
+  "Finance & Fintech",
+  "Frontier Tech",
+  "Strategic & Deep-Tech",
+  "E-Governance",
 ];
 
-// Node radius by instrument weight (Act > Rule/Regulation > Policy > Notification/Order)
-export const INSTRUMENT_RADIUS: Record<InstrumentType, number> = {
-  Act: 11,
-  Rule: 7.5,
-  Regulation: 7.5,
-  "Policy/Framework": 6.5,
-  Order: 5.5,
-  Notification: 5,
-};
+/** Node radius by instrument weight. */
+export function radiusForType(type: string): number {
+  if (type === "Act") return 11;
+  if (type === "Amendment Act") return 9;
+  if (type === "Regulations" || type === "Rules") return 7.5;
+  if (type === "Policy / Framework" || type === "Scheme" || type === "Strategy") return 7;
+  if (type === "Guidelines" || type === "Directive" || type === "Directions" || type === "Advisory")
+    return 6;
+  if (type === "Bill (Draft)") return 6.5;
+  return 5; // Notification / Order / Control List
+}
 
 export const LENSES: { id: Lens; label: string; blurb: string }[] = [
-  { id: "timeline", label: "Timeline", blurb: "A century of near-silence, then the post-2016 explosion." },
-  { id: "family", label: "Family", blurb: "Statutes as giants spawning rules, regulations and notifications." },
-  { id: "power", label: "Power", blurb: "Dozens of notifications collapse into a handful of statutory levers." },
-  { id: "instrument", label: "Instrument", blurb: "Act, Rule, Regulation, Notification, Policy, Order." },
-  { id: "status", label: "Status", blurb: "In force, draft, superseded, consolidated." },
+  { id: "timeline", label: "Timeline", blurb: "A century of near-silence, then the post-2016 explosion — and a 2023–25 frontier-tech wave." },
+  { id: "group", label: "Domain", blurb: "Eight worlds of tech regulation, from cyber to space, biotech and critical minerals." },
+  { id: "family", label: "Family", blurb: "Parent statutes as giants spawning rules spawning notifications." },
+  { id: "power", label: "Power", blurb: "Dozens of notifications collapse into a few statutory levers — the repeated s.70 cluster." },
+  { id: "type", label: "Instrument", blurb: "Acts, rules, notifications, policies, schemes, bills." },
+  { id: "status", label: "Status", blurb: "In force, superseded, draft, consolidated." },
+  { id: "binding", label: "Hard vs soft", blurb: "Binding statutes and rules versus soft-law policies, missions and strategies." },
 ];
 
 export const SECTION_LABELS: Record<string, string> = {
   "s.70": "s.70 · Protected systems",
+  "s.70B": "s.70B · CERT-In",
   "s.79A": "s.79A · Examiner of evidence",
   "s.69A": "s.69A · Blocking",
   "s.69B": "s.69B · Monitoring",
+  "s.69": "s.69 · Interception",
   "s.46": "s.46 · Adjudication",
   "s.88": "s.88 · Advisory",
   "s.7": "s.7 · Aadhaar",
-  none: "No empowering section",
+  none: "No specific section",
 };
 
 export const PARENT_LABELS: Record<string, string> = {
@@ -62,5 +64,18 @@ export const PARENT_LABELS: Record<string, string> = {
   "Telecom Act 2023": "Telecom Act, 2023",
   "Telegraph Act 1885": "Telegraph Act, 1885",
   "TRAI Act 1997": "TRAI Act, 1997",
+  "DPDP Act 2023": "DPDP Act, 2023",
+  "MMDR Act 1957": "MMDR Act, 1957",
+  "PSS Act 2007": "PSS Act, 2007",
   Standalone: "Standalone",
 };
+
+export const STATUS_COLORS: Record<string, string> = {
+  "In force": "#4a7c59",
+  "In force (phased)": "#6a9c4a",
+  Consolidated: "#2f5d8a",
+  "Superseded / Repealed": "#9c2f45",
+  "Draft / Proposed": "#d9860a",
+};
+
+export const COERCION_COLORS = ["#c9b8a8", "#e0a95a", "#d9702a", "#9c2f45"]; // 0..3

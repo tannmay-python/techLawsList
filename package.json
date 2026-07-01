@@ -1,9 +1,9 @@
 {
-  "name": "lex-digitalis",
+  "name": "india-tech-laws",
   "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
-  "description": "Lex Digitalis — India's Tech-Law Atlas (1885–2025)",
+  "description": "India's Tech Laws — an interactive atlas of 213 central-government tech-law instruments (1885–2025)",
   "scripts": {
     "data": "python3 scripts/build-data.py",
     "dev": "vite",

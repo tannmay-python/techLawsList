@@ -1,120 +1,94 @@
-# Lex Digitalis — India's Tech-Law Atlas (1885–2025)
+# India's Tech Laws · 1885–2025
 
-An offline-first, single-page interactive atlas of **149 Indian technology, cyber,
-telecom, data-protection and identity instruments**, rendered as **one animated
-node-canvas that re-organises itself under five analytical lenses**.
+An offline-first, single-page interactive atlas of **213 central-government instruments**
+governing India's digital, cyber, telecom, data, identity and frontier/strategic-technology
+domains — from the 1885 Telegraph Act to the 2025 frontier-tech wave. Each instrument is
+coded on 16 analytical fields, so the corpus can be filtered, pivoted and cross-tabbed.
 
-Every instrument is a node. Switching lenses re-lays-out every node with a smooth
-transition — nodes keep their identity and colour across lenses. The data tells three
-stories, and the structure is engineered to surface all three:
+**Live:** https://tannmay-python.github.io/techLawsList/
 
-1. **The big bang** — a century of near-silence, then an explosion after 2016. The
-   *Timeline* lens + *play-through-time* scrubber makes it visceral.
-2. **Few powers, many exercises** — the *Power* lens collapses dozens of notifications
-   into a handful of statutory levers and lays bare that ~30 are the *same move*
-   (s.70 protected-system designations) repeated bank by bank.
-3. **Genealogy** — the *Family* lens shows the IT Act and Aadhaar Act as giants spawning
-   rules spawning notifications, plus the amendment chains (Right-of-Way rules; the
-   S.O. 371(E) series).
+## Four ways in
 
-## The five lenses
+- **Overview** — the landing view: headline stats, the regulatory-velocity chart, the eight
+  domain worlds, and eight guided insights that jump straight to a finding.
+- **Atlas** — one animated node-canvas that re-organises under seven lenses (Timeline,
+  Domain, Family, Power, Instrument, Status, Hard-vs-soft), with play-through-time, a time
+  brush, and a full filter rail. Nodes keep identity + colour across lenses.
+- **Dashboard** — the analytics the data unlocks: regulatory velocity, hard-vs-soft-law
+  ratio, domain distribution, a ministry turf map, the coercion spectrum, an
+  extraterritoriality list, a contestation map (landmark litigation), and an India↔global
+  regime linkage view.
+- **Explore** — the full repository as a sortable, searchable, deep-linkable table with
+  CSV export.
 
-| Lens | Layout |
-| --- | --- |
-| **Timeline** (default) | x = date (1885→2025), horizontal swim-lanes by domain, a regulatory-velocity area chart behind the lanes, inflection annotations. Undated / proposed instruments park in a right-hand gutter. |
-| **Family** | clustered by parent statute (IT Act 2000, Aadhaar Act 2016, Telecom Act 2023, Telegraph Act 1885, TRAI Act 1997, Standalone). |
-| **Power** | clustered by empowering section (s.70, s.79A, s.69A, s.69B, s.46, s.88, s.7, none). |
-| **Instrument** | clustered by Act / Rule / Regulation / Notification / Policy-Framework / Order. |
-| **Status** | In force / Draft-Proposed / Superseded-Rescinded / Consolidated. |
+A rich **detail drawer** (all 16 facets, a coercion meter, compliance-burden flags,
+judicial status, international linkages, a primary-source link, and related-instrument
+navigation) is available from every view. **⌘/Ctrl-K** opens a command palette; every
+view + filter + selection is encoded in the URL for sharing.
 
-Colour = domain (consistent everywhere). Node size = instrument weight
-(Act > Rule/Regulation > Policy > Notification/Order).
+## Design
 
-## Features
-
-- **Play-through-time** — animate nodes appearing in chronological order, driving the
-  velocity chart forward. Scrubber + speed control. Respects `prefers-reduced-motion`.
-- **Cross-filter** — a left filter rail (domain, section, instrument, status, decade) and
-  a **time brush** on the Timeline lens. Filtering dims non-matching nodes live across
-  every lens.
-- **Search + Command palette** — fuzzy search (Fuse.js) over title/description/entity/tags,
-  plus **⌘/Ctrl-K** to jump to any instrument, switch lens, or run a command.
-- **Detail drawer** — full metadata + a *Related* list (same section, same family, same
-  amendment lineage); clicking a related item navigates within the drawer.
-- **Story mode** — five curated insight cards that set the right lens + filter to reveal a
-  finding.
-- **Deep links** — lens + filters + selected node are encoded in the URL (shareable).
-- **Export** — the current filtered set to CSV.
-- **Dark mode**, full keyboard navigation, ARIA labels, WCAG-AA-minded contrast, and a
-  responsive mobile/tablet grouped-list fallback.
-
-## Colour theme
-
-- Brand: **Llama** `#620d3c` (deep plum) + **Marigold** `#f1a222`.
-- Backgrounds: white / pale yellow `#fffbe2`. Dark mode on a near-black ink ground.
-- Eight muted, harmonious, colourblind-distinguishable domain hues anchored by the two
-  brand colours.
+- Single colour scheme — **Llama** `#620d3c` + **Marigold** `#f1a222` on a pale-yellow
+  `#fffbe2` / white ground. Eight harmonious super-domain hues anchored by the two brand
+  colours. No dark mode.
+- Fraunces (display serif), Inter (UI), JetBrains Mono (dates/sections). Purposeful motion
+  only; honours `prefers-reduced-motion`.
 
 ## Run
 
 ```bash
 npm install
-npm run data      # (optional) re-parse the xlsx → src/data/laws.json
+npm run data      # (optional) re-parse data/techLaws.xlsx → src/data/{laws,meta}.json
 npm run dev       # dev server
 npm run build     # static, offline-ready bundle in dist/
 npm run preview
 ```
 
-The app ships a pre-built `src/data/laws.json`, so `npm run dev` works without Python.
+The app ships pre-built JSON, so `npm run dev` works without Python.
 
 ## Data pipeline & derivation rules
 
-Source of truth: `data/India_Technology_Laws_Compendium.xlsx`. The build script
-`scripts/build-data.py` (Python + openpyxl) parses it into `src/data/laws.json`.
+Source of truth: `data/techLaws.xlsx` (17 columns, 213 instruments across 37 sections,
+plus an About sheet). `scripts/build-data.py` (Python + openpyxl) normalises it into
+`src/data/laws.json` and aggregates `src/data/meta.json`.
 
-The sheet mixes **section-header rows** (a name, no date, no description) that establish
-context, and **data rows** (149 actual instruments). Derivations — **please eyeball and
-correct**; every rule lives in editable tables at the top of `build-data.py`:
+Most facets are supplied in the sheet. The script derives the extras:
 
-- **domain** — carried down from the section header the row sits under, then overridden for
-  protected-system rows: bank/insurer/registrar declarations → **Banking & Finance**
-  (tagged `protected system` so they still cluster under s.70); AIIMS → **Healthcare**;
-  UIDAI-CIDR → **Identity/Aadhaar**; other govt/critical-infra → **IT & Cyber Security**.
-- **instrumentType** — notification *verbs* win first ("Declaration of… under the X Act" is
-  a Notification, not an Act), then instrument nouns (Rules/Regulations/Order/Policy), then
-  a bare statute → Act.
-- **empoweringSection** — regex for s.70/70A (protected systems), s.79A (examiner of
-  evidence), s.69A (blocking), s.69B (monitoring), s.46 (adjudication), s.88 (advisory),
-  s.7 (Aadhaar). s.70A is folded into the s.70 cluster.
-- **status** — Draft/Proposed ("not yet in force", "public consultation"); Superseded/
-  Rescinded ("rescind"/"withdraw"); Consolidated ("consolidated text"/"as amended in");
-  else In force.
-- **entity** — extracted from protected-system titles (HDFC, ICICI, NPCI, LIC, AAI, AIIMS,
-  NCRB, NIA, CAMS, Kfin, CERSAI, …).
-- **lineageId** — groups the Indian Telegraph Right-of-Way 2016 + amendments, and the
-  S.O. 371(E) / NFSA Aadhaar-deadline chain.
+- **group** — each raw Domain maps to one of eight colour super-domains (Core IT & Cyber,
+  Digital Identity, Telecom & Media, Data & Privacy, Finance & Fintech, Frontier Tech,
+  Strategic & Deep-Tech, E-Governance).
+- **parentStatute** — from Legal basis (IT Act, Aadhaar Act, Telegraph/Telecom Act, TRAI,
+  DPDP, MMDR, PSS) with section-header fallback.
+- **empoweringSection** — explicit "section NN" references always win; loose keyword
+  matches (protected system, blocking, examiner…) apply only in IT-Act context, so a
+  standalone Act that merely mentions "blocking" is not mis-tagged.
+- **hardLaw / coercionRank** — binding force → hard vs soft; penalty regime → a 0–3 bite.
+- **complianceFlags** — parsed from the compliance column (reporting, data localisation,
+  mandatory officer, registration/licensing, audit, consent).
+- **intlRegimes** — the international-linkage column split into individual regimes.
+- **sourceUrl** — bare official domains promoted to links; no URLs fabricated.
+- **lineageId / entity** — amendment chains (RoW rules, S.O. 371(E), IT Rules 2021, MMDR,
+  offshore minerals, biodiversity, Aadhaar authentication) and protected-system entities.
 
-### Date parsing caveats (the sheet is inconsistent)
+**Date parsing** strips prefixes (Enacted/Commenced/Assented/Notified…), handles US `M/D/Y`
+(the IT Act's `10/17/2000` = 17 Oct 2000), and anchors on the sheet's Year column when only
+a year is given.
 
-- Prefixes stripped: *Enacted/Commenced/Released/Enforced/Notified/Passed by* …
-- Most dates are `dd/mm/yyyy`; a few are US `M/D/Y` (e.g. IT Act `10/17/2000` = 17 Oct 2000).
-  Disambiguated by which component exceeds 12; ambiguous cases default to Indian `dd/mm`.
-- Text values ("Proposed / Not yet in force") set a status and park the node off-timeline.
-- A small **gazette-date override** table flags known corrections (Telecom Cyber Security
-  Rules 21 Nov 2024; Critical Telecom Infra & Temporary Suspension 22 Nov 2024; Lawful
-  Interception 6 Dec 2024) — the drawer shows the sheet date plus a gazette note.
+### Caveats (from the source's own methodology note)
 
-## Two editorial defaults (flip freely)
+Descriptive fields are drawn from primary/official material; the coded facets are a
+structured first pass — reliable for filtering and pattern-spotting, to be spot-checked
+before citation. Judicial status flags well-known cases only. Central-government instruments
+only; state laws excluded by design. To correct a mis-tagged row, edit the tables at the top
+of `build-data.py` and re-run `npm run data`.
 
-- **Default lens = Timeline** (story-first).
-- **Bank protected-system rows = Banking & Finance** domain + an `s.70` tag (so they colour
-  by sector but still cluster under the Power lens).
+## Deployment
+
+Pushed to `main`, the GitHub Actions workflow (`.github/workflows/deploy.yml`) builds and
+publishes `dist/` to GitHub Pages. The Vite `base` is relative, so the bundle also runs from
+any static path or fully offline (`open dist/index.html`).
 
 ## Tech
 
-Vite · React · TypeScript · Tailwind · D3 (scales/shape) · Framer Motion (FLIP transitions
-& drawer) · Fuse.js · Zustand. SVG canvas (149 nodes — no WebGL needed). Fully static.
-
-## Licence
-
-Data compiled for reference; code released for educational/analytical use.
+Vite · React · TypeScript · Tailwind · D3 (scales/shape) · Framer Motion · Fuse.js ·
+Zustand. SVG canvas (213 nodes — no WebGL). Fully static.

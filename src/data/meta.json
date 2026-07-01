@@ -1,0 +1,1000 @@
+{
+ "total": 213,
+ "sections": 37,
+ "domains": [
+  {
+   "key": "IT Act & Cyber",
+   "count": 71
+  },
+  {
+   "key": "Digital Identity (Aadhaar)",
+   "count": 39
+  },
+  {
+   "key": "Telecom",
+   "count": 28
+  },
+  {
+   "key": "Broadcasting & Media",
+   "count": 9
+  },
+  {
+   "key": "Data Protection",
+   "count": 7
+  },
+  {
+   "key": "E-Governance / Electronics",
+   "count": 7
+  },
+  {
+   "key": "Biotech",
+   "count": 6
+  },
+  {
+   "key": "Critical Minerals",
+   "count": 6
+  },
+  {
+   "key": "AI",
+   "count": 5
+  },
+  {
+   "key": "Cyber Security",
+   "count": 4
+  },
+  {
+   "key": "Financial-sector Cyber",
+   "count": 4
+  },
+  {
+   "key": "Quantum & Compute",
+   "count": 4
+  },
+  {
+   "key": "Space",
+   "count": 4
+  },
+  {
+   "key": "Export Controls",
+   "count": 3
+  },
+  {
+   "key": "Health Data",
+   "count": 2
+  },
+  {
+   "key": "Semiconductors",
+   "count": 2
+  },
+  {
+   "key": "Online Gaming",
+   "count": 2
+  },
+  {
+   "key": "Geospatial",
+   "count": 2
+  },
+  {
+   "key": "Nuclear",
+   "count": 2
+  },
+  {
+   "key": "E-Governance",
+   "count": 1
+  },
+  {
+   "key": "E-Commerce",
+   "count": 1
+  },
+  {
+   "key": "Fintech & Payments",
+   "count": 1
+  },
+  {
+   "key": "Drones",
+   "count": 1
+  },
+  {
+   "key": "Standards",
+   "count": 1
+  },
+  {
+   "key": "Research",
+   "count": 1
+  }
+ ],
+ "groups": [
+  {
+   "key": "Core IT & Cyber",
+   "count": 75
+  },
+  {
+   "key": "Digital Identity",
+   "count": 39
+  },
+  {
+   "key": "Telecom & Media",
+   "count": 37
+  },
+  {
+   "key": "Frontier Tech",
+   "count": 25
+  },
+  {
+   "key": "Strategic & Deep-Tech",
+   "count": 13
+  },
+  {
+   "key": "Data & Privacy",
+   "count": 11
+  },
+  {
+   "key": "E-Governance",
+   "count": 8
+  },
+  {
+   "key": "Finance & Fintech",
+   "count": 5
+  }
+ ],
+ "types": [
+  {
+   "key": "Notification",
+   "count": 87
+  },
+  {
+   "key": "Rules",
+   "count": 39
+  },
+  {
+   "key": "Act",
+   "count": 28
+  },
+  {
+   "key": "Policy / Framework",
+   "count": 15
+  },
+  {
+   "key": "Regulations",
+   "count": 14
+  },
+  {
+   "key": "Guidelines",
+   "count": 7
+  },
+  {
+   "key": "Scheme",
+   "count": 7
+  },
+  {
+   "key": "Amendment Act",
+   "count": 6
+  },
+  {
+   "key": "Order",
+   "count": 3
+  },
+  {
+   "key": "Bill (Draft)",
+   "count": 2
+  },
+  {
+   "key": "Directive",
+   "count": 1
+  },
+  {
+   "key": "Directions",
+   "count": 1
+  },
+  {
+   "key": "Strategy",
+   "count": 1
+  },
+  {
+   "key": "Advisory",
+   "count": 1
+  },
+  {
+   "key": "Control List",
+   "count": 1
+  }
+ ],
+ "statuses": [
+  {
+   "key": "In force",
+   "count": 194
+  },
+  {
+   "key": "Superseded / Repealed",
+   "count": 9
+  },
+  {
+   "key": "Draft / Proposed",
+   "count": 5
+  },
+  {
+   "key": "In force (phased)",
+   "count": 3
+  },
+  {
+   "key": "Consolidated",
+   "count": 2
+  }
+ ],
+ "binding": [
+  {
+   "key": "Subordinate / statutory instrument",
+   "count": 146
+  },
+  {
+   "key": "Primary legislation",
+   "count": 33
+  },
+  {
+   "key": "Soft law / policy",
+   "count": 29
+  },
+  {
+   "key": "Draft (not in force)",
+   "count": 5
+  }
+ ],
+ "ministries": [
+  {
+   "key": "MeitY",
+   "count": 89
+  },
+  {
+   "key": "DoT",
+   "count": 25
+  },
+  {
+   "key": "UIDAI",
+   "count": 19
+  },
+  {
+   "key": "Dept of Food & PD",
+   "count": 12
+  },
+  {
+   "key": "MeitY (notified lab)",
+   "count": 8
+  },
+  {
+   "key": "Ministry of Mines",
+   "count": 6
+  },
+  {
+   "key": "MIB",
+   "count": 5
+  },
+  {
+   "key": "MoEFCC",
+   "count": 5
+  },
+  {
+   "key": "RBI",
+   "count": 4
+  },
+  {
+   "key": "TRAI",
+   "count": 4
+  },
+  {
+   "key": "DST",
+   "count": 4
+  },
+  {
+   "key": "Ministry of Jal Shakti",
+   "count": 3
+  },
+  {
+   "key": "DoS",
+   "count": 3
+  },
+  {
+   "key": "MoHFW",
+   "count": 2
+  },
+  {
+   "key": "NITI Aayog",
+   "count": 2
+  },
+  {
+   "key": "DBT",
+   "count": 2
+  },
+  {
+   "key": "DAE",
+   "count": 2
+  },
+  {
+   "key": "IRDAI",
+   "count": 1
+  },
+  {
+   "key": "TDSAT",
+   "count": 1
+  },
+  {
+   "key": "Parliament",
+   "count": 1
+  },
+  {
+   "key": "Press Council of India",
+   "count": 1
+  },
+  {
+   "key": "SEBI",
+   "count": 1
+  },
+  {
+   "key": "DoPT",
+   "count": 1
+  },
+  {
+   "key": "Ministry of Education",
+   "count": 1
+  },
+  {
+   "key": "NPCI",
+   "count": 1
+  },
+  {
+   "key": "NIC",
+   "count": 1
+  },
+  {
+   "key": "NIXI",
+   "count": 1
+  },
+  {
+   "key": "C-DAC",
+   "count": 1
+  },
+  {
+   "key": "Dept of Consumer Affairs",
+   "count": 1
+  },
+  {
+   "key": "DPIIT",
+   "count": 1
+  },
+  {
+   "key": "DGFT (Commerce)",
+   "count": 1
+  },
+  {
+   "key": "MEA",
+   "count": 1
+  },
+  {
+   "key": "DGFT",
+   "count": 1
+  },
+  {
+   "key": "MoCA",
+   "count": 1
+  },
+  {
+   "key": "BIS",
+   "count": 1
+  }
+ ],
+ "parents": [
+  {
+   "key": "IT Act 2000",
+   "count": 77
+  },
+  {
+   "key": "Standalone",
+   "count": 58
+  },
+  {
+   "key": "Aadhaar Act 2016",
+   "count": 39
+  },
+  {
+   "key": "Telegraph Act 1885",
+   "count": 14
+  },
+  {
+   "key": "Telecom Act 2023",
+   "count": 10
+  },
+  {
+   "key": "TRAI Act 1997",
+   "count": 6
+  },
+  {
+   "key": "PSS Act 2007",
+   "count": 4
+  },
+  {
+   "key": "DPDP Act 2023",
+   "count": 3
+  },
+  {
+   "key": "MMDR Act 1957",
+   "count": 2
+  }
+ ],
+ "byYear": [
+  {
+   "year": 1885,
+   "count": 1
+  },
+  {
+   "year": 1886,
+   "count": 0
+  },
+  {
+   "year": 1887,
+   "count": 0
+  },
+  {
+   "year": 1888,
+   "count": 0
+  },
+  {
+   "year": 1889,
+   "count": 0
+  },
+  {
+   "year": 1890,
+   "count": 0
+  },
+  {
+   "year": 1891,
+   "count": 0
+  },
+  {
+   "year": 1892,
+   "count": 0
+  },
+  {
+   "year": 1893,
+   "count": 0
+  },
+  {
+   "year": 1894,
+   "count": 0
+  },
+  {
+   "year": 1895,
+   "count": 0
+  },
+  {
+   "year": 1896,
+   "count": 0
+  },
+  {
+   "year": 1897,
+   "count": 0
+  },
+  {
+   "year": 1898,
+   "count": 0
+  },
+  {
+   "year": 1899,
+   "count": 0
+  },
+  {
+   "year": 1900,
+   "count": 0
+  },
+  {
+   "year": 1901,
+   "count": 0
+  },
+  {
+   "year": 1902,
+   "count": 0
+  },
+  {
+   "year": 1903,
+   "count": 0
+  },
+  {
+   "year": 1904,
+   "count": 0
+  },
+  {
+   "year": 1905,
+   "count": 0
+  },
+  {
+   "year": 1906,
+   "count": 0
+  },
+  {
+   "year": 1907,
+   "count": 0
+  },
+  {
+   "year": 1908,
+   "count": 0
+  },
+  {
+   "year": 1909,
+   "count": 0
+  },
+  {
+   "year": 1910,
+   "count": 0
+  },
+  {
+   "year": 1911,
+   "count": 0
+  },
+  {
+   "year": 1912,
+   "count": 0
+  },
+  {
+   "year": 1913,
+   "count": 0
+  },
+  {
+   "year": 1914,
+   "count": 0
+  },
+  {
+   "year": 1915,
+   "count": 0
+  },
+  {
+   "year": 1916,
+   "count": 0
+  },
+  {
+   "year": 1917,
+   "count": 0
+  },
+  {
+   "year": 1918,
+   "count": 0
+  },
+  {
+   "year": 1919,
+   "count": 0
+  },
+  {
+   "year": 1920,
+   "count": 0
+  },
+  {
+   "year": 1921,
+   "count": 0
+  },
+  {
+   "year": 1922,
+   "count": 0
+  },
+  {
+   "year": 1923,
+   "count": 0
+  },
+  {
+   "year": 1924,
+   "count": 0
+  },
+  {
+   "year": 1925,
+   "count": 0
+  },
+  {
+   "year": 1926,
+   "count": 0
+  },
+  {
+   "year": 1927,
+   "count": 0
+  },
+  {
+   "year": 1928,
+   "count": 0
+  },
+  {
+   "year": 1929,
+   "count": 0
+  },
+  {
+   "year": 1930,
+   "count": 0
+  },
+  {
+   "year": 1931,
+   "count": 0
+  },
+  {
+   "year": 1932,
+   "count": 0
+  },
+  {
+   "year": 1933,
+   "count": 1
+  },
+  {
+   "year": 1934,
+   "count": 0
+  },
+  {
+   "year": 1935,
+   "count": 0
+  },
+  {
+   "year": 1936,
+   "count": 0
+  },
+  {
+   "year": 1937,
+   "count": 0
+  },
+  {
+   "year": 1938,
+   "count": 0
+  },
+  {
+   "year": 1939,
+   "count": 0
+  },
+  {
+   "year": 1940,
+   "count": 0
+  },
+  {
+   "year": 1941,
+   "count": 0
+  },
+  {
+   "year": 1942,
+   "count": 0
+  },
+  {
+   "year": 1943,
+   "count": 0
+  },
+  {
+   "year": 1944,
+   "count": 0
+  },
+  {
+   "year": 1945,
+   "count": 0
+  },
+  {
+   "year": 1946,
+   "count": 0
+  },
+  {
+   "year": 1947,
+   "count": 0
+  },
+  {
+   "year": 1948,
+   "count": 0
+  },
+  {
+   "year": 1949,
+   "count": 0
+  },
+  {
+   "year": 1950,
+   "count": 0
+  },
+  {
+   "year": 1951,
+   "count": 0
+  },
+  {
+   "year": 1952,
+   "count": 1
+  },
+  {
+   "year": 1953,
+   "count": 0
+  },
+  {
+   "year": 1954,
+   "count": 0
+  },
+  {
+   "year": 1955,
+   "count": 0
+  },
+  {
+   "year": 1956,
+   "count": 0
+  },
+  {
+   "year": 1957,
+   "count": 1
+  },
+  {
+   "year": 1958,
+   "count": 0
+  },
+  {
+   "year": 1959,
+   "count": 0
+  },
+  {
+   "year": 1960,
+   "count": 0
+  },
+  {
+   "year": 1961,
+   "count": 0
+  },
+  {
+   "year": 1962,
+   "count": 1
+  },
+  {
+   "year": 1963,
+   "count": 0
+  },
+  {
+   "year": 1964,
+   "count": 0
+  },
+  {
+   "year": 1965,
+   "count": 0
+  },
+  {
+   "year": 1966,
+   "count": 0
+  },
+  {
+   "year": 1967,
+   "count": 0
+  },
+  {
+   "year": 1968,
+   "count": 0
+  },
+  {
+   "year": 1969,
+   "count": 0
+  },
+  {
+   "year": 1970,
+   "count": 0
+  },
+  {
+   "year": 1971,
+   "count": 0
+  },
+  {
+   "year": 1972,
+   "count": 0
+  },
+  {
+   "year": 1973,
+   "count": 0
+  },
+  {
+   "year": 1974,
+   "count": 0
+  },
+  {
+   "year": 1975,
+   "count": 0
+  },
+  {
+   "year": 1976,
+   "count": 0
+  },
+  {
+   "year": 1977,
+   "count": 1
+  },
+  {
+   "year": 1978,
+   "count": 1
+  },
+  {
+   "year": 1979,
+   "count": 0
+  },
+  {
+   "year": 1980,
+   "count": 0
+  },
+  {
+   "year": 1981,
+   "count": 0
+  },
+  {
+   "year": 1982,
+   "count": 0
+  },
+  {
+   "year": 1983,
+   "count": 0
+  },
+  {
+   "year": 1984,
+   "count": 0
+  },
+  {
+   "year": 1985,
+   "count": 0
+  },
+  {
+   "year": 1986,
+   "count": 1
+  },
+  {
+   "year": 1987,
+   "count": 0
+  },
+  {
+   "year": 1988,
+   "count": 0
+  },
+  {
+   "year": 1989,
+   "count": 1
+  },
+  {
+   "year": 1990,
+   "count": 1
+  },
+  {
+   "year": 1991,
+   "count": 0
+  },
+  {
+   "year": 1992,
+   "count": 1
+  },
+  {
+   "year": 1993,
+   "count": 1
+  },
+  {
+   "year": 1994,
+   "count": 0
+  },
+  {
+   "year": 1995,
+   "count": 1
+  },
+  {
+   "year": 1996,
+   "count": 0
+  },
+  {
+   "year": 1997,
+   "count": 2
+  },
+  {
+   "year": 1998,
+   "count": 0
+  },
+  {
+   "year": 1999,
+   "count": 1
+  },
+  {
+   "year": 2000,
+   "count": 3
+  },
+  {
+   "year": 2001,
+   "count": 1
+  },
+  {
+   "year": 2002,
+   "count": 1
+  },
+  {
+   "year": 2003,
+   "count": 4
+  },
+  {
+   "year": 2004,
+   "count": 0
+  },
+  {
+   "year": 2005,
+   "count": 2
+  },
+  {
+   "year": 2006,
+   "count": 0
+  },
+  {
+   "year": 2007,
+   "count": 1
+  },
+  {
+   "year": 2008,
+   "count": 1
+  },
+  {
+   "year": 2009,
+   "count": 4
+  },
+  {
+   "year": 2010,
+   "count": 4
+  },
+  {
+   "year": 2011,
+   "count": 4
+  },
+  {
+   "year": 2012,
+   "count": 3
+  },
+  {
+   "year": 2013,
+   "count": 2
+  },
+  {
+   "year": 2014,
+   "count": 3
+  },
+  {
+   "year": 2015,
+   "count": 5
+  },
+  {
+   "year": 2016,
+   "count": 14
+  },
+  {
+   "year": 2017,
+   "count": 14
+  },
+  {
+   "year": 2018,
+   "count": 15
+  },
+  {
+   "year": 2019,
+   "count": 9
+  },
+  {
+   "year": 2020,
+   "count": 3
+  },
+  {
+   "year": 2021,
+   "count": 13
+  },
+  {
+   "year": 2022,
+   "count": 18
+  },
+  {
+   "year": 2023,
+   "count": 32
+  },
+  {
+   "year": 2024,
+   "count": 28
+  },
+  {
+   "year": 2025,
+   "count": 10
+  },
+  {
+   "year": 2026,
+   "count": 0
+  }
+ ],
+ "extraterritorial": 14,
+ "contested": 6,
+ "hardLaw": 179,
+ "softLaw": 34,
+ "withIntl": 18,
+ "s70count": 33,
+ "minYear": 1885,
+ "maxYear": 2025
+}

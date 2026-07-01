@@ -1,70 +1,73 @@
-export type InstrumentType =
-  | "Act"
-  | "Rule"
-  | "Regulation"
-  | "Notification"
-  | "Policy/Framework"
-  | "Order";
-
-export type Domain =
-  | "IT & Cyber Security"
-  | "Banking & Finance"
-  | "Healthcare"
-  | "Telecom"
-  | "Broadcasting & Media"
-  | "Data Protection & Privacy"
-  | "Identity/Aadhaar"
-  | "E-governance";
-
-export type ParentStatute =
-  | "IT Act 2000"
-  | "Aadhaar Act 2016"
-  | "Telecom Act 2023"
-  | "Telegraph Act 1885"
-  | "TRAI Act 1997"
-  | "Standalone";
-
-export type EmpoweringSection =
-  | "s.70"
-  | "s.79A"
-  | "s.69A"
-  | "s.69B"
-  | "s.46"
-  | "s.88"
-  | "s.7"
-  | null;
-
-export type Status =
-  | "In force"
-  | "Draft/Proposed"
-  | "Superseded/Rescinded"
-  | "Consolidated";
+export type Group =
+  | "Core IT & Cyber"
+  | "Digital Identity"
+  | "Telecom & Media"
+  | "Data & Privacy"
+  | "Finance & Fintech"
+  | "Frontier Tech"
+  | "Strategic & Deep-Tech"
+  | "E-Governance";
 
 export interface Law {
   id: string;
   title: string;
   description: string;
+  section: string | null;
   dateISO: string | null;
   dateDisplay: string;
   rawDate: string | null;
+  approxDate: boolean;
   year: number | null;
   decade: string | null;
-  instrumentType: InstrumentType;
-  domain: Domain;
-  parentStatute: ParentStatute;
-  empoweringSection: EmpoweringSection;
-  status: Status;
+  type: string;
+  domain: string;
+  group: Group;
+  parentStatute: string;
+  empoweringSection: string | null;
+  bindingForce: string;
+  hardLaw: boolean;
+  status: string;
+  adminBody: string;
+  adminMinistry: string;
+  legalBasis: string | null;
+  territorial: string;
+  extraterritorial: boolean;
+  penaltyRegime: string;
+  maxPenalty: string | null;
+  coercionRank: number; // 0..3
+  coercionLabel: string;
+  judicialStatus: string | null;
+  contested: boolean;
+  compliance: string | null;
+  complianceFlags: string[];
+  international: string | null;
+  intlRegimes: string[];
+  source: string | null;
+  sourceUrl: string | null;
   entity: string | null;
-  tags: string[];
   lineageId: string | null;
-  gazetteNote: string | null;
 }
 
-export type Lens = "timeline" | "family" | "power" | "instrument" | "status";
-
-export interface NodePos {
-  id: string;
-  x: number;
-  y: number;
-  r: number;
+export interface Meta {
+  total: number;
+  sections: number;
+  domains: { key: string; count: number }[];
+  groups: { key: string; count: number }[];
+  types: { key: string; count: number }[];
+  statuses: { key: string; count: number }[];
+  binding: { key: string; count: number }[];
+  ministries: { key: string; count: number }[];
+  parents: { key: string; count: number }[];
+  byYear: { year: number; count: number }[];
+  extraterritorial: number;
+  contested: number;
+  hardLaw: number;
+  softLaw: number;
+  withIntl: number;
+  s70count: number;
+  minYear: number;
+  maxYear: number;
 }
+
+export type View = "overview" | "atlas" | "dashboard" | "explore";
+export type Lens = "timeline" | "group" | "family" | "power" | "type" | "status" | "binding";
