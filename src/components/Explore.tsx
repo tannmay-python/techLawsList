@@ -9,7 +9,13 @@ interface Props {
   onSelect: (id: string) => void;
 }
 
-type SortKey = "year" | "title" | "type" | "group" | "status" | "coercionRank";
+type SortKey = "year" | "title" | "type" | "group" | "status" | "penaltyRegime";
+
+function shortPenalty(p: string): string {
+  if (!p || p === "Under parent Act") return "under parent Act";
+  if (p.startsWith("None") || p === "n/a (draft)") return "none";
+  return p;
+}
 
 export default function Explore({ laws, total, onSelect }: Props) {
   const [sort, setSort] = useState<SortKey>("year");
@@ -18,7 +24,7 @@ export default function Explore({ laws, total, onSelect }: Props) {
   const rows = useMemo(() => {
     const s = [...laws].sort((a, b) => {
       let av: any = a[sort], bv: any = b[sort];
-      if (sort === "year" || sort === "coercionRank") { av = av ?? -1; bv = bv ?? -1; return (av - bv) * dir; }
+      if (sort === "year") { av = av ?? -1; bv = bv ?? -1; return (av - bv) * dir; }
       return String(av ?? "").localeCompare(String(bv ?? "")) * dir;
     });
     return s;
@@ -47,7 +53,7 @@ export default function Explore({ laws, total, onSelect }: Props) {
               {th("group", "Domain")}
               {th("status", "Status")}
               <th className="sticky top-0 z-10 border-b bg-paper px-3 py-2 text-left font-mono text-[10px] uppercase tracking-wide text-ink-soft hairline">Body</th>
-              {th("coercionRank", "Bite")}
+              {th("penaltyRegime", "Penalty")}
             </tr>
           </thead>
           <tbody>
@@ -66,11 +72,7 @@ export default function Explore({ laws, total, onSelect }: Props) {
                   <span className="rounded-full px-2 py-0.5 text-[10px] font-medium" style={{ color: STATUS_COLORS[l.status] || "var(--ink-soft)", background: `${(STATUS_COLORS[l.status] || "#999")}18` }}>{l.status}</span>
                 </td>
                 <td className="whitespace-nowrap px-3 py-2 font-mono text-[11px] text-ink-soft">{l.adminMinistry}</td>
-                <td className="px-3 py-2">
-                  <div className="flex gap-0.5" aria-label={l.coercionLabel}>
-                    {[0, 1, 2, 3].map((i) => <span key={i} className="h-1.5 w-1.5 rounded-full" style={{ background: i <= l.coercionRank ? "var(--llama)" : "var(--rule)" }} />)}
-                  </div>
-                </td>
+                <td className="whitespace-nowrap px-3 py-2 text-[12px] text-ink-soft">{shortPenalty(l.penaltyRegime)}</td>
               </tr>
             ))}
             {rows.length === 0 && <tr><td colSpan={7} className="px-3 py-10 text-center text-ink-faint">No instruments match your filters.</td></tr>}

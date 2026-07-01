@@ -232,16 +232,45 @@ def coercion(regime, maxpen):
     return 0, "None / non-binding"
 
 
-def source_link(src):
-    if not src or src == "-":
-        return None
-    s = src.strip()
-    if s.startswith("http"):
-        return s
-    # bare domain like indiacode.nic.in
-    if re.match(r"^[a-z0-9.\-]+\.[a-z]{2,}(/\S*)?$", s, re.I):
-        return "https://" + s
-    return None
+from urllib.parse import quote_plus
+
+# Verified exact government URLs, keyed by instrument id. Populated by research
+# (scripts/link-overrides.json). Only URLs that appear verbatim in official
+# search results are stored here — none are guessed.
+OVERRIDES_PATH = ROOT / "scripts" / "link-overrides.json"
+
+
+def load_overrides():
+    if OVERRIDES_PATH.exists():
+        try:
+            return json.loads(OVERRIDES_PATH.read_text())
+        except Exception:
+            return {}
+    return {}
+
+
+def search_link(title, src):
+    """A precise official-source search that lands on the exact instrument.
+    Used when no verified direct URL exists (most individual gazette
+    notifications have no stable public deep link)."""
+    hint = "India Code"
+    s = (src or "").lower()
+    if "egazette" in s:
+        hint = "eGazette notification"
+    elif "indiacode" in s:
+        hint = "India Code full text"
+    elif src and "." in src:
+        hint = src
+    q = f'"{title}" {hint}'
+    return "https://www.google.com/search?q=" + quote_plus(q)
+
+
+def resolve_source(sid, title, src, overrides):
+    """Return (url, is_exact). Verified direct URL if we have one, else a
+    precise official-source search."""
+    if sid in overrides and overrides[sid]:
+        return overrides[sid], True
+    return search_link(title, src), False
 
 
 def lineage(name, legal_basis):
@@ -271,6 +300,7 @@ def hard_law(bf):
 
 
 def main():
+    overrides = load_overrides()
     wb = openpyxl.load_workbook(XLSX, data_only=True)
     ws = wb["India Tech Laws"]
     rows = list(ws.iter_rows(values_only=True))
@@ -394,7 +424,8 @@ def main():
             "international": intl,
             "intlRegimes": regimes,
             "source": src,
-            "sourceUrl": source_link(src),
+            "sourceUrl": resolve_source(sid, name, src, overrides)[0],
+            "sourceExact": resolve_source(sid, name, src, overrides)[1],
             "entity": entity,
             "lineageId": lineage(name, legal_basis),
         })
@@ -437,6 +468,8 @@ def main():
     print("  contested:", meta['contested'], "| extraterritorial:", meta['extraterritorial'],
           "| intl-linked:", meta['withIntl'], "| s.70:", meta['s70count'])
     print("  no date  :", sum(1 for l in laws if not l['dateISO']))
+    print("  exact links:", sum(1 for l in laws if l['sourceExact']), "/", len(laws),
+          "(rest use precise official-source search)")
 
 
 if __name__ == "__main__":

@@ -23,9 +23,9 @@ interface Props {
 
 const ANNOTATIONS: { year: number; label: string }[] = [
   { year: 1885, label: "Telegraph Act" },
-  { year: 2000, label: "IT Act 2000" },
-  { year: 2016, label: "Aadhaar · s.70 wave" },
-  { year: 2023, label: "Telecom Act · frontier wave" },
+  { year: 2000, label: "IT Act" },
+  { year: 2016, label: "Aadhaar Act" },
+  { year: 2023, label: "Telecom Act" },
 ];
 
 function Chip({ children }: { children: ReactNode }) {
@@ -116,7 +116,7 @@ export default function Canvas(props: Props) {
             </defs>
             <path d={velPath.d} fill="url(#vel)" stroke="var(--marigold)" strokeOpacity="0.55" strokeWidth={1} />
             <text x={layout.brush!.padL} y={velPath.baseY + 16} className="font-mono" fontSize={9} fill="var(--ink-faint)">
-              regulatory velocity — instruments / year (peak {velPath.maxC})
+              instruments per year
             </text>
           </g>
         )}
@@ -147,12 +147,15 @@ export default function Canvas(props: Props) {
           );
         })}
 
-        {lens !== "timeline" && layout.clusters.map((c) => (
-          <g key={c.key}>
-            <text x={c.cx} y={c.cy - 104} textAnchor="middle" className="font-display" fontSize={15} fill="var(--ink)" fontWeight={600}>{c.label}</text>
-            <text x={c.cx} y={c.cy - 88} textAnchor="middle" className="font-mono" fontSize={10} fill="var(--ink-faint)">{c.count} {c.count === 1 ? "instrument" : "instruments"}</text>
-          </g>
-        ))}
+        {lens !== "timeline" && layout.clusters.map((c) => {
+          const labelY = c.cy - c.r - 30;
+          return (
+            <g key={c.key}>
+              <text x={c.cx} y={labelY} textAnchor="middle" className="font-display" fontSize={15} fill="var(--ink)" fontWeight={600}>{c.label}</text>
+              <text x={c.cx} y={labelY + 15} textAnchor="middle" className="font-mono" fontSize={10} fill="var(--ink-faint)">{c.count} {c.count === 1 ? "instrument" : "instruments"}</text>
+            </g>
+          );
+        })}
 
         {lens === "timeline" && filters.yearFrom != null && filters.yearTo != null && (
           <rect x={layout.brush!.yearToX(filters.yearFrom)} width={Math.max(2, layout.brush!.yearToX(filters.yearTo) - layout.brush!.yearToX(filters.yearFrom))} y={70} height={layout.brush!.laneBottom - 70} fill="var(--marigold)" fillOpacity={0.1} stroke="var(--marigold)" strokeOpacity={0.5} strokeDasharray="3 3" pointerEvents="none" />
@@ -197,6 +200,15 @@ export default function Canvas(props: Props) {
           <span className="font-mono text-[10px] text-ink-faint">drag across the strip below the lanes to brush a time range</span>
         </div>
       )}
+
+      <div className="panel pointer-events-none absolute right-3 top-3 z-20 rounded-lg border px-2.5 py-1.5 hairline">
+        <div className="flex items-center gap-1.5 font-mono text-[10px] text-ink-soft">
+          <span className="inline-block rounded-full" style={{ width: 12, height: 12, background: "var(--ink-faint)" }} />
+          <span className="inline-block rounded-full" style={{ width: 8, height: 8, background: "var(--ink-faint)" }} />
+          <span className="inline-block rounded-full" style={{ width: 5, height: 5, background: "var(--ink-faint)" }} />
+          <span className="ml-1">size = weight · Act › Rule › Notification</span>
+        </div>
+      </div>
 
       {hoverLaw && mouse && (
         <div className="panel pointer-events-none absolute z-30 max-w-xs rounded-lg border p-3 card-shadow hairline" style={{ left: Math.min(mouse.x + 16, width - 280), top: mouse.y + 16 }}>

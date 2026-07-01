@@ -18,16 +18,16 @@ export default function Overview({ apply, onPlay, goAtlas }: Props) {
       <div className="mx-auto max-w-6xl px-5 py-8">
         {/* hero */}
         <div className="rise">
-          <span className="font-mono text-[11px] uppercase tracking-[0.2em]" style={{ color: "var(--marigold-deep)" }}>India Central Technology Law Repository</span>
+          <span className="font-mono text-[11px] uppercase tracking-[0.2em]" style={{ color: "var(--marigold-deep)" }}>A digital repository of India's tech laws</span>
           <h1 className="mt-2 max-w-3xl font-display text-4xl font-semibold leading-[1.08] text-ink md:text-5xl">
-            A century of near-silence, then a decade that rewrote the rules.
+            India's technology laws, in one place.
           </h1>
           <p className="mt-4 max-w-2xl text-[15px] leading-relaxed text-ink-soft">
-            {META.total} central-government instruments — statutes, rules, notifications, policies and missions — governing India's digital, cyber, telecom, data, identity and frontier-technology domains, from the 1885 Telegraph Act to 2025. One living canvas, coded on 16 analytical fields.
+            {META.total} central-government instruments — statutes, rules, notifications, policies and missions — across India's digital, cyber, telecom, data, identity and frontier-technology domains, from 1885 to 2025. Search them, filter them, and open any one for the full record and its official source.
           </p>
           <div className="mt-5 flex flex-wrap gap-2">
             <button onClick={goAtlas} className="rounded-full px-4 py-2 text-sm font-semibold text-paper transition hover:opacity-90" style={{ background: "var(--llama)" }}>Open the Atlas →</button>
-            <button onClick={() => apply("dashboard", undefined, {})} className="rounded-full border px-4 py-2 text-sm font-semibold text-ink hairline transition hover:border-marigold">See the analytics</button>
+            <button onClick={() => apply("explore", undefined, {})} className="rounded-full border px-4 py-2 text-sm font-semibold text-ink hairline transition hover:border-marigold">Browse the full list</button>
           </div>
         </div>
 
@@ -45,10 +45,10 @@ export default function Overview({ apply, onPlay, goAtlas }: Props) {
         <section className="mt-6 rounded-xl border bg-card p-4 card-shadow hairline">
           <div className="mb-2 flex items-end justify-between">
             <div>
-              <h3 className="font-display text-[15px] font-semibold text-ink">Regulatory velocity, 1885–2025</h3>
-              <p className="text-[11px] text-ink-faint">instruments enacted per year — the post-2016 surge is unmistakable</p>
+              <h3 className="font-display text-[15px] font-semibold text-ink">Instruments by year, 1885–2025</h3>
+              <p className="text-[11px] text-ink-faint">how many were enacted each year</p>
             </div>
-            <button onClick={goAtlas} className="font-mono text-[11px] text-llama transition hover:underline" style={{ color: "var(--llama)" }}>play it →</button>
+            <button onClick={goAtlas} className="font-mono text-[11px] transition hover:underline" style={{ color: "var(--llama)" }}>open the atlas →</button>
           </div>
           <VelocityBars data={META.byYear.filter((d) => d.year <= 2025)} height={96} />
           <div className="mt-1 flex justify-between font-mono text-[10px] text-ink-faint"><span>1885</span><span>1950</span><span>1990</span><span>2016</span><span>2025</span></div>
@@ -56,7 +56,7 @@ export default function Overview({ apply, onPlay, goAtlas }: Props) {
 
         {/* domain legend */}
         <section className="mt-6">
-          <h3 className="mb-3 font-mono text-[10px] uppercase tracking-widest text-ink-faint">Eight worlds of tech regulation</h3>
+          <h3 className="mb-3 font-mono text-[10px] uppercase tracking-widest text-ink-faint">Browse by domain</h3>
           <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
             {GROUP_ORDER.map((g) => {
               const n = META.groups.find((x) => x.key === g)?.count ?? 0;
@@ -75,7 +75,7 @@ export default function Overview({ apply, onPlay, goAtlas }: Props) {
 
         {/* guided insights */}
         <section className="mt-8">
-          <h3 className="mb-3 font-mono text-[10px] uppercase tracking-widest text-ink-faint">Guided insights — click a finding to jump straight to it</h3>
+          <h3 className="mb-3 font-mono text-[10px] uppercase tracking-widest text-ink-faint">Starting points — click to jump in</h3>
           <InsightCards apply={apply} onPlay={onPlay} columns />
         </section>
 

@@ -69,11 +69,11 @@ export default function DetailDrawer({ law, all, onClose, onSelect, reducedMotio
 
               <p className="mt-5 text-[15px] leading-relaxed text-ink-soft">{law.description}</p>
 
-              {/* coercion meter */}
+              {/* penalty */}
               {law.penaltyRegime && law.penaltyRegime !== "Under parent Act" && (
                 <div className="mt-5">
                   <div className="mb-1 flex items-center justify-between">
-                    <span className="font-mono text-[10px] uppercase tracking-widest text-ink-faint">Coercion</span>
+                    <span className="font-mono text-[10px] uppercase tracking-widest text-ink-faint">Penalty</span>
                     <span className="text-[12px] text-ink-soft">{law.coercionLabel}</span>
                   </div>
                   <div className="flex gap-1">
@@ -81,7 +81,7 @@ export default function DetailDrawer({ law, all, onClose, onSelect, reducedMotio
                       <div key={i} className="h-1.5 flex-1 rounded-full" style={{ background: i <= law.coercionRank ? COERCION_COLORS[law.coercionRank] : "var(--rule)" }} />
                     ))}
                   </div>
-                  {law.maxPenalty && law.maxPenalty !== "See parent Act" && <p className="mt-1.5 text-[12px] text-ink-soft"><span className="text-ink-faint">Headline ceiling: </span>{law.maxPenalty}</p>}
+                  {law.maxPenalty && law.maxPenalty !== "See parent Act" && <p className="mt-1.5 text-[12px] text-ink-soft"><span className="text-ink-faint">Maximum penalty: </span>{law.maxPenalty}</p>}
                 </div>
               )}
 
@@ -127,11 +127,21 @@ export default function DetailDrawer({ law, all, onClose, onSelect, reducedMotio
               )}
 
               {law.sourceUrl && (
-                <a href={law.sourceUrl} target="_blank" rel="noreferrer" className="mt-5 inline-flex items-center gap-1.5 rounded-lg border px-3 py-1.5 font-mono text-[11px] text-ink-soft hairline transition hover:border-marigold hover:text-ink">
-                  Primary source: {law.source} <span aria-hidden>↗</span>
-                </a>
+                <div className="mt-5">
+                  <a href={law.sourceUrl} target="_blank" rel="noreferrer"
+                    className="inline-flex items-center gap-1.5 rounded-lg border px-3 py-2 font-mono text-[11px] font-medium transition hover:text-paper hairline"
+                    style={{ color: "var(--llama)", borderColor: "var(--llama)" }}
+                    onMouseEnter={(e) => (e.currentTarget.style.background = "var(--llama)")}
+                    onMouseLeave={(e) => (e.currentTarget.style.background = "transparent")}>
+                    {law.sourceExact ? "Open the official text" : "Find the official text"} <span aria-hidden>↗</span>
+                  </a>
+                  <p className="mt-1.5 font-mono text-[10px] text-ink-faint">
+                    {law.sourceExact
+                      ? `Direct link · ${law.source ?? "official source"}`
+                      : `Official-source search · ${law.source ?? "gazette"}`}
+                  </p>
+                </div>
               )}
-              {!law.sourceUrl && law.source && <p className="mt-5 font-mono text-[11px] text-ink-faint">Source: {law.source}</p>}
 
               {related(law, all).map((g) => (
                 <div key={g.label} className="mt-6">

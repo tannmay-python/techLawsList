@@ -4,7 +4,7 @@ import { GROUP_ORDER, radiusForType } from "./palette";
 
 export interface NodePos { id: string; x: number; y: number; r: number; }
 
-export interface ClusterLabel { key: string; label: string; cx: number; cy: number; count: number; }
+export interface ClusterLabel { key: string; label: string; cx: number; cy: number; count: number; r: number; }
 
 export interface LayoutResult {
   positions: Record<string, NodePos>;
@@ -28,7 +28,7 @@ function hash(id: string): number {
 /* ---------------- TIMELINE ---------------- */
 function timelineLayout(laws: Law[], width: number): LayoutResult {
   const padL = 78, padR = 40;
-  const laneTop = 92, laneH = 46;
+  const laneTop = 120, laneH = 58;
   const lanes = GROUP_ORDER;
   const height = laneTop + lanes.length * laneH + 70;
 
@@ -57,8 +57,16 @@ function timelineLayout(laws: Law[], width: number): LayoutResult {
     const list = laneList[lane] ?? (laneList[lane] = []);
     const overlaps = (yy: number) => list.some((p) => Math.abs(p.x - px) < r * 1.5 && Math.abs(p.y - yy) < r * 1.7);
     const dir = hash(l.id + "d") > 0.5 ? 1 : -1;
+    // keep the node within its own lane band so nothing bleeds into the axis
+    // above or the neighbouring lane below
+    const bound = laneH / 2 - r - 1;
     let py = baseY, tries = 0;
-    while (overlaps(py) && tries < 12) { tries++; py = baseY + dir * Math.ceil(tries / 2) * r * 1.7; }
+    while (overlaps(py) && tries < 12) {
+      tries++;
+      const off = dir * Math.ceil(tries / 2) * r * 1.7;
+      py = baseY + Math.max(-bound, Math.min(bound, off));
+      if (Math.abs(off) > bound) break; // lane full at this x — accept slight overlap
+    }
     list.push({ x: px, y: py });
     positions[l.id] = { id: l.id, x: px, y: py, r };
   }
@@ -120,32 +128,33 @@ function clusteredLayout(laws: Law[], lens: Lens, width: number): LayoutResult {
   const cols = n <= 3 ? n : n <= 4 ? 2 : n <= 6 ? 3 : n <= 9 ? 3 : 4;
   const rows = Math.ceil(n / cols);
   const colW = width / cols;
-  const topPad = 120, rowH = 268;
+  const topPad = 150, rowH = 320;
   const height = topPad + rows * rowH + 40;
-
-  const centroids: Record<string, { cx: number; cy: number }> = {};
-  const clusters: ClusterLabel[] = entries.map(([key, g], i) => {
-    const col = i % cols, row = Math.floor(i / cols);
-    const cx = colW * col + colW / 2;
-    const cy = topPad + row * rowH + rowH / 2;
-    centroids[key] = { cx, cy };
-    return { key, label: g.label, cx, cy, count: g.items.length };
-  });
 
   const GOLDEN = Math.PI * (3 - Math.sqrt(5));
   const positions: Record<string, NodePos> = {};
-  const maxClusterR = Math.min(colW, rowH) * 0.43;
-  for (const [key, g] of entries) {
-    const { cx, cy } = centroids[key];
+  const clusters: ClusterLabel[] = [];
+  // cap the cluster radius so a blob never collides with its column neighbour,
+  // its row neighbour, or its own heading above it
+  const maxClusterR = Math.min(colW * 0.42, (rowH - 90) / 2);
+
+  entries.forEach(([key, g], i) => {
+    const col = i % cols, row = Math.floor(i / cols);
+    const cx = colW * col + colW / 2;
+    const cy = topPad + row * rowH + rowH / 2 + 24; // nudge down to leave heading room
     const items = [...g.items].sort((a, b) => radiusForType(b.type) - radiusForType(a.type));
     const count = items.length;
     const spacing = Math.min(15, count > 1 ? maxClusterR / Math.sqrt(count) : 0);
+    let blobR = radiusForType(items[0]?.type ?? "Notification");
     items.forEach((l, j) => {
       const rr = spacing * Math.sqrt(j);
       const ang = j * GOLDEN + hash(key) * 6.28;
-      positions[l.id] = { id: l.id, x: cx + rr * Math.cos(ang), y: cy + rr * Math.sin(ang), r: radiusForType(l.type) };
+      const nodeR = radiusForType(l.type);
+      blobR = Math.max(blobR, rr + nodeR);
+      positions[l.id] = { id: l.id, x: cx + rr * Math.cos(ang), y: cy + rr * Math.sin(ang), r: nodeR };
     });
-  }
+    clusters.push({ key, label: g.label, cx, cy, count, r: blobR });
+  });
   return { positions, clusters, height };
 }
 

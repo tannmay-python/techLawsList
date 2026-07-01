@@ -44,6 +44,7 @@ export interface Law {
   intlRegimes: string[];
   source: string | null;
   sourceUrl: string | null;
+  sourceExact: boolean;
   entity: string | null;
   lineageId: string | null;
 }

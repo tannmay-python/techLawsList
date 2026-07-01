@@ -36,13 +36,13 @@ export function radiusForType(type: string): number {
 }
 
 export const LENSES: { id: Lens; label: string; blurb: string }[] = [
-  { id: "timeline", label: "Timeline", blurb: "A century of near-silence, then the post-2016 explosion — and a 2023–25 frontier-tech wave." },
-  { id: "group", label: "Domain", blurb: "Eight worlds of tech regulation, from cyber to space, biotech and critical minerals." },
-  { id: "family", label: "Family", blurb: "Parent statutes as giants spawning rules spawning notifications." },
-  { id: "power", label: "Power", blurb: "Dozens of notifications collapse into a few statutory levers — the repeated s.70 cluster." },
-  { id: "type", label: "Instrument", blurb: "Acts, rules, notifications, policies, schemes, bills." },
-  { id: "status", label: "Status", blurb: "In force, superseded, draft, consolidated." },
-  { id: "binding", label: "Hard vs soft", blurb: "Binding statutes and rules versus soft-law policies, missions and strategies." },
+  { id: "timeline", label: "Timeline", blurb: "Every instrument placed by date, in lanes by domain." },
+  { id: "group", label: "Domain", blurb: "Grouped into eight domains, from cyber to space and critical minerals." },
+  { id: "family", label: "Family", blurb: "Grouped by the parent statute each instrument sits under." },
+  { id: "power", label: "Power", blurb: "Grouped by the empowering section of the parent Act." },
+  { id: "type", label: "Instrument", blurb: "Grouped by kind — Acts, rules, notifications, policies, schemes." },
+  { id: "status", label: "Status", blurb: "Grouped by whether each is in force, superseded or draft." },
+  { id: "binding", label: "Hard vs soft", blurb: "Hard law (binding statutes and rules) vs soft law (policies, missions, guidelines)." },
 ];
 
 export const SECTION_LABELS: Record<string, string> = {

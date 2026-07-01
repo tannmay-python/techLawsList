@@ -52,28 +52,28 @@ export default function Dashboard({ laws, onSelect, pick }: Props) {
     <div className="scroll-thin h-full overflow-y-auto">
       <div className="mx-auto max-w-6xl px-5 py-6">
         <div className="mb-4 flex items-baseline justify-between">
-          <h2 className="font-display text-xl font-semibold text-ink">The rulebook, in aggregate</h2>
+          <h2 className="font-display text-xl font-semibold text-ink">The repository at a glance</h2>
           <span className="font-mono text-[11px] text-ink-faint">{laws.length} instruments in view</span>
         </div>
 
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
           {/* velocity — full width */}
           <div className="lg:col-span-3">
-            <Panel title="Regulatory velocity" note="Instruments per year. Highlighted: 2000 (IT Act), 2016 (Aadhaar), 2023 (Telecom + frontier wave).">
+            <Panel title="Instruments by year" note="How many instruments were enacted each year, 1885–2025.">
               <VelocityBars data={byYear} height={120} />
               <div className="mt-1 flex justify-between font-mono text-[10px] text-ink-faint"><span>1885</span><span>1950</span><span>1990</span><span>2016</span><span>2025</span></div>
             </Panel>
           </div>
 
           {/* hard vs soft */}
-          <Panel title="Hard law vs soft law" note="Binding statutes & rules vs policies, missions, strategies, drafts.">
+          <Panel title="Hard law vs soft law" note="Hard law = binding statutes and the rules under them. Soft law = policies, missions, strategies and guidelines that guide but don't legally bind.">
             <StackBar segments={[
               { label: "Hard law", count: hard, color: "var(--llama)" },
               { label: "Soft law", count: laws.length - hard, color: "var(--marigold)" },
             ]} />
             <div className="mt-3 flex gap-2">
-              <button onClick={() => pick("atlas", "binding", { hardOnly: true })} className="rounded-full border px-2.5 py-1 font-mono text-[10px] text-ink-soft hairline transition hover:border-marigold">isolate hard law</button>
-              <button onClick={() => pick("atlas", "binding", { softOnly: true })} className="rounded-full border px-2.5 py-1 font-mono text-[10px] text-ink-soft hairline transition hover:border-marigold">isolate soft law</button>
+              <button onClick={() => pick("atlas", "binding", { hardOnly: true })} className="rounded-full border px-2.5 py-1 font-mono text-[10px] text-ink-soft hairline transition hover:border-marigold">show hard law</button>
+              <button onClick={() => pick("atlas", "binding", { softOnly: true })} className="rounded-full border px-2.5 py-1 font-mono text-[10px] text-ink-soft hairline transition hover:border-marigold">show soft law</button>
             </div>
           </Panel>
 
@@ -82,8 +82,8 @@ export default function Dashboard({ laws, onSelect, pick }: Props) {
             <BarList data={groups} onPick={(k) => pick("atlas", "group", { groups: [k] })} />
           </Panel>
 
-          {/* coercion spectrum */}
-          <Panel title="Coercion spectrum" note="How hard each instrument bites — penalty regime.">
+          {/* penalty type */}
+          <Panel title="Penalty type" note="The penalty each instrument carries, as recorded in the source.">
             <div className="flex flex-col gap-2">
               {coercion.map((c, i) => (
                 <div key={i} className="grid grid-cols-[1fr_auto] items-center gap-2">

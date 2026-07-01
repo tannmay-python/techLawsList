@@ -66,7 +66,7 @@ export default function Atlas(props: Props) {
             <Canvas laws={props.laws} lens={props.lens} filters={props.filters} selectedId={props.selectedId} hoverId={hoverId} playing={props.playing} playYear={props.playYear} onSelect={props.onSelect} onHover={setHoverId} onBrush={props.onBrush} reducedMotion={props.reducedMotion} />
           </div>
           <div className="border-t px-5 py-3 hairline">
-            <div className="mb-2 font-mono text-[10px] uppercase tracking-widest text-ink-faint">Guided insights</div>
+            <div className="mb-2 font-mono text-[10px] uppercase tracking-widest text-ink-faint">Starting points</div>
             <InsightCards apply={props.apply} onPlay={props.onPlay} />
           </div>
         </main>
