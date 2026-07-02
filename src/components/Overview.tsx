@@ -23,7 +23,7 @@ export default function Overview({ apply, onPlay, goAtlas }: Props) {
             India's technology laws, in one place.
           </h1>
           <p className="mt-4 max-w-2xl text-[15px] leading-relaxed text-ink-soft">
-            {META.total} central-government instruments — statutes, rules, notifications, policies and missions — across India's digital, cyber, telecom, data, identity and frontier-technology domains, from 1885 to 2025. Search them, filter them, and open any one for the full record and its official source.
+            {META.total} central-government instruments — statutes, rules, notifications, policies and missions — across India's digital, cyber, telecom, data, identity, frontier-technology and clean-tech domains, from 1885 to 2025. Search them, filter them, and open any one for the full record and its official source.
           </p>
           <div className="mt-5 flex flex-wrap gap-2">
             <button onClick={goAtlas} className="rounded-full px-4 py-2 text-sm font-semibold text-paper transition hover:opacity-90" style={{ background: "var(--llama)" }}>Open the Atlas →</button>

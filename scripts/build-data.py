@@ -20,7 +20,7 @@ except ImportError:
     sys.exit("pip install openpyxl")
 
 ROOT = Path(__file__).resolve().parent.parent
-XLSX = ROOT / "data" / "techLaws.xlsx"
+XLSX = ROOT / "data" / "India_Technology_Laws_Compendium_1.xlsx"
 OUT = ROOT / "src" / "data" / "laws.json"
 META_OUT = ROOT / "src" / "data" / "meta.json"
 
@@ -52,8 +52,17 @@ GROUP_OF = {
     "Critical Minerals": "Strategic & Deep-Tech",
     "Standards": "Strategic & Deep-Tech",
     "Research": "Strategic & Deep-Tech",
+    "Deep Tech & Digital Markets": "Strategic & Deep-Tech",
     "E-Governance / Electronics": "E-Governance",
     "E-Governance": "E-Governance",
+    # widest-scope domains added in the 324-entry edition
+    "Navigation": "Frontier Tech",
+    "Subsea Cables": "Telecom & Media",
+    "Medtech": "Data & Privacy",
+    "Electric Mobility": "Industrial & Clean-Tech",
+    "Clean Energy": "Industrial & Clean-Tech",
+    "Adv. Manufacturing": "Industrial & Clean-Tech",
+    "Agritech": "Industrial & Clean-Tech",
 }
 DEFAULT_GROUP = "Core IT & Cyber"
 

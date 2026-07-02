@@ -6,6 +6,7 @@ export type Group =
   | "Finance & Fintech"
   | "Frontier Tech"
   | "Strategic & Deep-Tech"
+  | "Industrial & Clean-Tech"
   | "E-Governance";
 
 export interface Law {

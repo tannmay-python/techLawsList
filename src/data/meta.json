@@ -1,6 +1,6 @@
 {
- "total": 213,
- "sections": 37,
+ "total": 324,
+ "sections": 46,
  "domains": [
   {
    "key": "IT Act & Cyber",
@@ -12,11 +12,43 @@
   },
   {
    "key": "Telecom",
-   "count": 28
+   "count": 32
+  },
+  {
+   "key": "Critical Minerals",
+   "count": 20
+  },
+  {
+   "key": "Biotech",
+   "count": 17
+  },
+  {
+   "key": "Semiconductors",
+   "count": 13
+  },
+  {
+   "key": "Nuclear",
+   "count": 12
+  },
+  {
+   "key": "Space",
+   "count": 11
+  },
+  {
+   "key": "Drones",
+   "count": 10
   },
   {
    "key": "Broadcasting & Media",
    "count": 9
+  },
+  {
+   "key": "Electric Mobility",
+   "count": 9
+  },
+  {
+   "key": "Fintech & Payments",
+   "count": 8
   },
   {
    "key": "Data Protection",
@@ -27,43 +59,47 @@
    "count": 7
   },
   {
-   "key": "Biotech",
-   "count": 6
+   "key": "Export Controls",
+   "count": 7
   },
   {
-   "key": "Critical Minerals",
-   "count": 6
+   "key": "Cyber Security",
+   "count": 5
   },
   {
    "key": "AI",
    "count": 5
   },
   {
-   "key": "Cyber Security",
-   "count": 4
+   "key": "Quantum & Compute",
+   "count": 5
   },
   {
    "key": "Financial-sector Cyber",
    "count": 4
   },
   {
-   "key": "Quantum & Compute",
+   "key": "Clean Energy",
    "count": 4
   },
   {
-   "key": "Space",
+   "key": "Adv. Manufacturing",
    "count": 4
   },
   {
-   "key": "Export Controls",
+   "key": "Deep Tech & Digital Markets",
+   "count": 4
+  },
+  {
+   "key": "Medtech",
+   "count": 4
+  },
+  {
+   "key": "Navigation",
    "count": 3
   },
   {
    "key": "Health Data",
-   "count": 2
-  },
-  {
-   "key": "Semiconductors",
    "count": 2
   },
   {
@@ -75,7 +111,11 @@
    "count": 2
   },
   {
-   "key": "Nuclear",
+   "key": "Subsea Cables",
+   "count": 2
+  },
+  {
+   "key": "Agritech",
    "count": 2
   },
   {
@@ -84,14 +124,6 @@
   },
   {
    "key": "E-Commerce",
-   "count": 1
-  },
-  {
-   "key": "Fintech & Payments",
-   "count": 1
-  },
-  {
-   "key": "Drones",
    "count": 1
   },
   {
@@ -106,88 +138,96 @@
  "groups": [
   {
    "key": "Core IT & Cyber",
-   "count": 75
+   "count": 76
+  },
+  {
+   "key": "Frontier Tech",
+   "count": 67
+  },
+  {
+   "key": "Strategic & Deep-Tech",
+   "count": 45
+  },
+  {
+   "key": "Telecom & Media",
+   "count": 43
   },
   {
    "key": "Digital Identity",
    "count": 39
   },
   {
-   "key": "Telecom & Media",
-   "count": 37
-  },
-  {
-   "key": "Frontier Tech",
-   "count": 25
-  },
-  {
-   "key": "Strategic & Deep-Tech",
-   "count": 13
+   "key": "Industrial & Clean-Tech",
+   "count": 19
   },
   {
    "key": "Data & Privacy",
-   "count": 11
+   "count": 15
+  },
+  {
+   "key": "Finance & Fintech",
+   "count": 12
   },
   {
    "key": "E-Governance",
    "count": 8
-  },
-  {
-   "key": "Finance & Fintech",
-   "count": 5
   }
  ],
  "types": [
   {
    "key": "Notification",
-   "count": 87
+   "count": 94
   },
   {
    "key": "Rules",
-   "count": 39
-  },
-  {
-   "key": "Act",
-   "count": 28
+   "count": 66
   },
   {
    "key": "Policy / Framework",
-   "count": 15
+   "count": 33
+  },
+  {
+   "key": "Act",
+   "count": 32
+  },
+  {
+   "key": "Scheme",
+   "count": 25
+  },
+  {
+   "key": "Guidelines",
+   "count": 19
   },
   {
    "key": "Regulations",
    "count": 14
   },
   {
-   "key": "Guidelines",
-   "count": 7
-  },
-  {
-   "key": "Scheme",
-   "count": 7
-  },
-  {
    "key": "Amendment Act",
-   "count": 6
-  },
-  {
-   "key": "Order",
-   "count": 3
-  },
-  {
-   "key": "Bill (Draft)",
-   "count": 2
-  },
-  {
-   "key": "Directive",
-   "count": 1
+   "count": 11
   },
   {
    "key": "Directions",
-   "count": 1
+   "count": 7
+  },
+  {
+   "key": "Bill (Draft)",
+   "count": 6
   },
   {
    "key": "Strategy",
+   "count": 5
+  },
+  {
+   "key": "Order",
+   "count": 4
+  },
+  {
+   "key": "Programme",
+   "count": 4
+  },
+  {
+   "key": "Directive",
    "count": 1
   },
   {
@@ -197,20 +237,24 @@
   {
    "key": "Control List",
    "count": 1
+  },
+  {
+   "key": "Recommendation",
+   "count": 1
   }
  ],
  "statuses": [
   {
    "key": "In force",
-   "count": 194
+   "count": 282
   },
   {
    "key": "Superseded / Repealed",
-   "count": 9
+   "count": 24
   },
   {
    "key": "Draft / Proposed",
-   "count": 5
+   "count": 13
   },
   {
    "key": "In force (phased)",
@@ -224,44 +268,76 @@
  "binding": [
   {
    "key": "Subordinate / statutory instrument",
-   "count": 146
-  },
-  {
-   "key": "Primary legislation",
-   "count": 33
+   "count": 187
   },
   {
    "key": "Soft law / policy",
-   "count": 29
+   "count": 82
+  },
+  {
+   "key": "Primary legislation",
+   "count": 42
   },
   {
    "key": "Draft (not in force)",
-   "count": 5
+   "count": 13
   }
  ],
  "ministries": [
   {
    "key": "MeitY",
-   "count": 89
+   "count": 101
   },
   {
    "key": "DoT",
-   "count": 25
+   "count": 31
   },
   {
    "key": "UIDAI",
    "count": 19
   },
   {
+   "key": "Ministry of Mines",
+   "count": 19
+  },
+  {
+   "key": "DAE",
+   "count": 13
+  },
+  {
    "key": "Dept of Food & PD",
    "count": 12
+  },
+  {
+   "key": "DoS",
+   "count": 12
+  },
+  {
+   "key": "RBI",
+   "count": 10
+  },
+  {
+   "key": "MoCA",
+   "count": 10
+  },
+  {
+   "key": "DBT",
+   "count": 9
   },
   {
    "key": "MeitY (notified lab)",
    "count": 8
   },
   {
-   "key": "Ministry of Mines",
+   "key": "MoEFCC",
+   "count": 7
+  },
+  {
+   "key": "MoHFW",
+   "count": 6
+  },
+  {
+   "key": "Ministry of Heavy Industries",
    "count": 6
   },
   {
@@ -269,19 +345,23 @@
    "count": 5
   },
   {
-   "key": "MoEFCC",
+   "key": "DST",
    "count": 5
-  },
-  {
-   "key": "RBI",
-   "count": 4
   },
   {
    "key": "TRAI",
    "count": 4
   },
   {
-   "key": "DST",
+   "key": "DPIIT",
+   "count": 4
+  },
+  {
+   "key": "NITI Aayog",
+   "count": 4
+  },
+  {
+   "key": "DGFT (Commerce)",
    "count": 4
   },
   {
@@ -289,23 +369,23 @@
    "count": 3
   },
   {
-   "key": "DoS",
+   "key": "MNRE",
    "count": 3
   },
   {
-   "key": "MoHFW",
+   "key": "DGFT",
    "count": 2
   },
   {
-   "key": "NITI Aayog",
+   "key": "Ministry of Power",
    "count": 2
   },
   {
-   "key": "DBT",
+   "key": "Ministry of Agriculture",
    "count": 2
   },
   {
-   "key": "DAE",
+   "key": "CDSCO",
    "count": 2
   },
   {
@@ -326,6 +406,10 @@
   },
   {
    "key": "SEBI",
+   "count": 1
+  },
+  {
+   "key": "NSCS",
    "count": 1
   },
   {
@@ -357,11 +441,11 @@
    "count": 1
   },
   {
-   "key": "DPIIT",
+   "key": "FIU-IND",
    "count": 1
   },
   {
-   "key": "DGFT (Commerce)",
+   "key": "ICMR",
    "count": 1
   },
   {
@@ -369,37 +453,53 @@
    "count": 1
   },
   {
-   "key": "DGFT",
-   "count": 1
-  },
-  {
-   "key": "MoCA",
-   "count": 1
-  },
-  {
    "key": "BIS",
+   "count": 1
+  },
+  {
+   "key": "ISRO",
+   "count": 1
+  },
+  {
+   "key": "Dept of Heavy Industry",
+   "count": 1
+  },
+  {
+   "key": "Office of PSA",
+   "count": 1
+  },
+  {
+   "key": "MCA",
    "count": 1
   }
  ],
  "parents": [
   {
-   "key": "IT Act 2000",
-   "count": 77
+   "key": "Standalone",
+   "count": 144
   },
   {
-   "key": "Standalone",
-   "count": 58
+   "key": "IT Act 2000",
+   "count": 77
   },
   {
    "key": "Aadhaar Act 2016",
    "count": 39
   },
   {
+   "key": "Telecom Act 2023",
+   "count": 16
+  },
+  {
+   "key": "MMDR Act 1957",
+   "count": 15
+  },
+  {
    "key": "Telegraph Act 1885",
    "count": 14
   },
   {
-   "key": "Telecom Act 2023",
+   "key": "PSS Act 2007",
    "count": 10
   },
   {
@@ -407,16 +507,8 @@
    "count": 6
   },
   {
-   "key": "PSS Act 2007",
-   "count": 4
-  },
-  {
    "key": "DPDP Act 2023",
    "count": 3
-  },
-  {
-   "key": "MMDR Act 1957",
-   "count": 2
   }
  ],
  "byYear": [
@@ -618,7 +710,7 @@
   },
   {
    "year": 1934,
-   "count": 0
+   "count": 1
   },
   {
    "year": 1935,
@@ -722,7 +814,7 @@
   },
   {
    "year": 1960,
-   "count": 0
+   "count": 1
   },
   {
    "year": 1961,
@@ -766,7 +858,7 @@
   },
   {
    "year": 1971,
-   "count": 0
+   "count": 1
   },
   {
    "year": 1972,
@@ -818,7 +910,7 @@
   },
   {
    "year": 1984,
-   "count": 0
+   "count": 1
   },
   {
    "year": 1985,
@@ -830,7 +922,7 @@
   },
   {
    "year": 1987,
-   "count": 0
+   "count": 1
   },
   {
    "year": 1988,
@@ -842,7 +934,7 @@
   },
   {
    "year": 1990,
-   "count": 1
+   "count": 2
   },
   {
    "year": 1991,
@@ -854,7 +946,7 @@
   },
   {
    "year": 1993,
-   "count": 1
+   "count": 2
   },
   {
    "year": 1994,
@@ -866,15 +958,15 @@
   },
   {
    "year": 1996,
-   "count": 0
+   "count": 1
   },
   {
    "year": 1997,
-   "count": 2
+   "count": 3
   },
   {
    "year": 1998,
-   "count": 0
+   "count": 1
   },
   {
    "year": 1999,
@@ -882,11 +974,11 @@
   },
   {
    "year": 2000,
-   "count": 3
+   "count": 4
   },
   {
    "year": 2001,
-   "count": 1
+   "count": 2
   },
   {
    "year": 2002,
@@ -898,7 +990,7 @@
   },
   {
    "year": 2004,
-   "count": 0
+   "count": 2
   },
   {
    "year": 2005,
@@ -906,11 +998,11 @@
   },
   {
    "year": 2006,
-   "count": 0
+   "count": 2
   },
   {
    "year": 2007,
-   "count": 1
+   "count": 2
   },
   {
    "year": 2008,
@@ -922,78 +1014,78 @@
   },
   {
    "year": 2010,
-   "count": 4
+   "count": 6
   },
   {
    "year": 2011,
-   "count": 4
+   "count": 6
   },
   {
    "year": 2012,
-   "count": 3
+   "count": 6
   },
   {
    "year": 2013,
-   "count": 2
+   "count": 4
   },
   {
    "year": 2014,
-   "count": 3
+   "count": 4
   },
   {
    "year": 2015,
-   "count": 5
-  },
-  {
-   "year": 2016,
-   "count": 14
-  },
-  {
-   "year": 2017,
-   "count": 14
-  },
-  {
-   "year": 2018,
-   "count": 15
-  },
-  {
-   "year": 2019,
-   "count": 9
-  },
-  {
-   "year": 2020,
-   "count": 3
-  },
-  {
-   "year": 2021,
    "count": 13
   },
   {
-   "year": 2022,
+   "year": 2016,
+   "count": 20
+  },
+  {
+   "year": 2017,
+   "count": 21
+  },
+  {
+   "year": 2018,
    "count": 18
   },
   {
-   "year": 2023,
-   "count": 32
+   "year": 2019,
+   "count": 16
   },
   {
-   "year": 2024,
+   "year": 2020,
+   "count": 10
+  },
+  {
+   "year": 2021,
    "count": 28
   },
   {
+   "year": 2022,
+   "count": 28
+  },
+  {
+   "year": 2023,
+   "count": 39
+  },
+  {
+   "year": 2024,
+   "count": 36
+  },
+  {
    "year": 2025,
-   "count": 10
+   "count": 16
   },
   {
    "year": 2026,
    "count": 0
   }
  ],
- "extraterritorial": 14,
- "contested": 6,
- "hardLaw": 179,
- "softLaw": 34,
- "withIntl": 18,
+ "extraterritorial": 20,
+ "contested": 7,
+ "hardLaw": 229,
+ "softLaw": 95,
+ "withIntl": 65,
  "s70count": 33,
  "minYear": 1885,
  "maxYear": 2025

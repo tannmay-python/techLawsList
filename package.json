@@ -3,7 +3,7 @@
   "private": true,
   "version": "2.0.0",
   "type": "module",
-  "description": "India's Tech Laws — an interactive atlas of 213 central-government tech-law instruments (1885–2025)",
+  "description": "India's Tech Laws — an interactive atlas of 324 central-government tech-law instruments (1885–2025)",
   "scripts": {
     "data": "python3 scripts/build-data.py",
     "dev": "vite",

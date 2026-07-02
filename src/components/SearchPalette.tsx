@@ -58,7 +58,7 @@ export default function SearchPalette({ open, laws, onClose, onSelect, setView, 
           <motion.div className="w-full max-w-xl overflow-hidden rounded-2xl border bg-paper drawer-shadow hairline" initial={{ y: reducedMotion ? 0 : -16, opacity: 0, scale: reducedMotion ? 1 : 0.98 }} animate={{ y: 0, opacity: 1, scale: 1 }} exit={{ y: reducedMotion ? 0 : -16, opacity: 0 }} transition={{ type: "spring", stiffness: 320, damping: 30 }} onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true" aria-label="Command palette">
             <div className="flex items-center gap-3 border-b px-4 py-3 hairline">
               <span className="text-ink-faint">⌘K</span>
-              <input ref={inputRef} value={q} onChange={(e) => setQ(e.target.value)} onKeyDown={onKey} placeholder="Search 213 instruments, jump to a view, switch lens…" className="w-full bg-transparent text-[15px] text-ink placeholder:text-ink-faint focus:outline-none" />
+              <input ref={inputRef} value={q} onChange={(e) => setQ(e.target.value)} onKeyDown={onKey} placeholder={`Search ${laws.length} instruments, jump to a view, switch lens…`} className="w-full bg-transparent text-[15px] text-ink placeholder:text-ink-faint focus:outline-none" />
             </div>
             <ul className="scroll-thin max-h-[52vh] overflow-y-auto py-2">
               {results.length === 0 && <li className="px-4 py-6 text-center text-sm text-ink-faint">No matches.</li>}

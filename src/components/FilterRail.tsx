@@ -13,7 +13,7 @@ interface Props {
   clear: () => void;
 }
 
-const TYPES = ["Act", "Amendment Act", "Rules", "Regulations", "Notification", "Order", "Policy / Framework", "Scheme", "Guidelines", "Bill (Draft)"];
+const TYPES = ["Act", "Amendment Act", "Rules", "Regulations", "Notification", "Order", "Policy / Framework", "Scheme", "Programme", "Guidelines", "Strategy", "Bill (Draft)"];
 const STATUSES = ["In force", "In force (phased)", "Consolidated", "Superseded / Repealed", "Draft / Proposed"];
 const SECTIONS = ["s.70", "s.70B", "s.79A", "s.69A", "s.69B", "s.69", "s.46", "s.88", "s.7", "none"];
 const DECADES = ["1880s", "1930s", "1950s", "1960s", "1970s", "1980s", "1990s", "2000s", "2010s", "2020s"];

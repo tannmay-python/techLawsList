@@ -1,6 +1,6 @@
 import type { Group, Lens } from "../types";
 
-/** 8 super-domain colours, anchored by Llama (#620d3c) + Marigold (#f1a222). */
+/** 9 super-domain colours, anchored by Llama (#620d3c) + Marigold (#f1a222). */
 export const GROUP_COLORS: Record<Group, string> = {
   "Core IT & Cyber": "#620d3c", // Llama plum
   "Digital Identity": "#f1a222", // Marigold
@@ -9,6 +9,7 @@ export const GROUP_COLORS: Record<Group, string> = {
   "Finance & Fintech": "#1f7a70", // teal
   "Frontier Tech": "#c65a1e", // burnt orange
   "Strategic & Deep-Tech": "#9c2f45", // rosewood
+  "Industrial & Clean-Tech": "#6b7a3f", // olive
   "E-Governance": "#4a7c59", // green
 };
 
@@ -20,6 +21,7 @@ export const GROUP_ORDER: Group[] = [
   "Finance & Fintech",
   "Frontier Tech",
   "Strategic & Deep-Tech",
+  "Industrial & Clean-Tech",
   "E-Governance",
 ];
 
@@ -28,8 +30,8 @@ export function radiusForType(type: string): number {
   if (type === "Act") return 11;
   if (type === "Amendment Act") return 9;
   if (type === "Regulations" || type === "Rules") return 7.5;
-  if (type === "Policy / Framework" || type === "Scheme" || type === "Strategy") return 7;
-  if (type === "Guidelines" || type === "Directive" || type === "Directions" || type === "Advisory")
+  if (type === "Policy / Framework" || type === "Scheme" || type === "Strategy" || type === "Programme") return 7;
+  if (type === "Guidelines" || type === "Directive" || type === "Directions" || type === "Advisory" || type === "Recommendation")
     return 6;
   if (type === "Bill (Draft)") return 6.5;
   return 5; // Notification / Order / Control List
@@ -37,7 +39,7 @@ export function radiusForType(type: string): number {
 
 export const LENSES: { id: Lens; label: string; blurb: string }[] = [
   { id: "timeline", label: "Timeline", blurb: "Every instrument placed by date, in lanes by domain." },
-  { id: "group", label: "Domain", blurb: "Grouped into eight domains, from cyber to space and critical minerals." },
+  { id: "group", label: "Domain", blurb: "Grouped into nine domains, from cyber to space, critical minerals and clean tech." },
   { id: "family", label: "Family", blurb: "Grouped by the parent statute each instrument sits under." },
   { id: "power", label: "Power", blurb: "Grouped by the empowering section of the parent Act." },
   { id: "type", label: "Instrument", blurb: "Grouped by kind — Acts, rules, notifications, policies, schemes." },

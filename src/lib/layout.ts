@@ -105,7 +105,8 @@ function clusterKey(l: Law, lens: Lens): { key: string; label: string; order: nu
 
 const parentOrder = (p: string) => ["IT Act 2000", "Aadhaar Act 2016", "Telegraph Act 1885", "Telecom Act 2023", "TRAI Act 1997", "DPDP Act 2023", "MMDR Act 1957", "PSS Act 2007", "Standalone"].indexOf(p);
 const sectionOrder = (s: string) => ["s.70", "s.79A", "s.69A", "s.69B", "s.69", "s.70B", "s.46", "s.88", "s.7", "none"].indexOf(s);
-const typeOrder = (t: string) => ["Act", "Amendment Act", "Rules", "Regulations", "Notification", "Order", "Policy / Framework", "Scheme", "Guidelines", "Strategy", "Advisory", "Directive", "Directions", "Bill (Draft)", "Control List"].indexOf(t);
+const TYPE_ORDER_LIST = ["Act", "Amendment Act", "Rules", "Regulations", "Notification", "Order", "Policy / Framework", "Scheme", "Programme", "Guidelines", "Strategy", "Advisory", "Recommendation", "Directive", "Directions", "Bill (Draft)", "Control List"];
+const typeOrder = (t: string) => { const i = TYPE_ORDER_LIST.indexOf(t); return i === -1 ? TYPE_ORDER_LIST.length : i; };
 const statusOrder = (s: string) => ["In force", "In force (phased)", "Consolidated", "Superseded / Repealed", "Draft / Proposed"].indexOf(s);
 const bindingOrder = (b: string) => ["Primary legislation", "Subordinate / statutory instrument", "Soft law / policy", "Draft (not in force)"].indexOf(b);
 function shortBinding(b: string) {
