@@ -314,8 +314,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "meity.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Information+Technology+%28Procedure+and+Safeguards+for+Monitoring+and+Collecting+Traffic+Data+or+Information%29+Rules%2C+2009%22+meity.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.meity.gov.in/static/uploads/2024/10/91f628cb778f94e76df356bc3fd3ac60.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -397,8 +397,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "meity.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Information+Technology+%28Intermediaries+Guidelines%29+Rules%2C+2011%22+meity.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://upload.indiacode.nic.in/showfile?actid=AC_CEN_45_76_00001_200021_1517807324077&filename=Information+Technology+(Intermediaries+Guidelines)+Rules,+2011.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -479,8 +479,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "meity.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Information+Technology+%28Electronic+Service+Delivery%29+Rules%2C+2011%22+meity.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://cca.gov.in/sites/files/pdf/ACT/GSR316.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -521,8 +521,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "meity.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Information+Technology+%28The+Indian+Computer+Emergency+Response+Team+and+Manner+of+Performing+Functions+and+Duties%29+Rules%2C+2013%22+meity.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://upload.indiacode.nic.in/showfile?actid=AC_CEN_45_76_00001_200021_1517807324077&filename=the_indian_computer_emergency_response_team_rule_2013.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -601,8 +601,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "meity.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Electronic+Signature+or+Electronic+Authentication+Technique+and+Procedure+Rules%2C+2015%22+meity.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://cca.gov.in/sites/files/pdf/ACT/GSR61-62.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -644,8 +644,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "meity.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Information+Technology+%28Information+Security+Practices+and+Procedures+for+Protected+System%29+Rules%2C+2018%22+meity.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.meity.gov.in/static/uploads/2024/02/NCIIPC-Rules-notification-1.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -724,8 +724,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22G.S.R.181%28E%29%2C+27.2.2003+-+establishment+of+CERT-In+and+procedure+for+blocking+of+websites%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://upload.indiacode.nic.in/showfile?actid=AC_CEN_45_76_00001_200021_1517807324077&filename=Notification+no.+G.S.R.181_E_+dated+27.2.2003.pdf&type=notification",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -764,8 +764,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22G.S.R.240%28E%29%2C+25.3.2003+-+Secretary+of+State%2FUT+IT+Department+as+Adjudicating+Officer%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://upload.indiacode.nic.in/showfile?actid=AC_CEN_45_76_00001_200021_1517807324077&type=notification&filename=Notification+no.+G.S.R.240_E_+dated+25.3.2003.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -924,8 +924,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Process+of+registration+of+cyber+cafe+to+be+followed+by+the+registration+agency%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_45_76_00001_200021_1517807324077%2Frulesindividualfile%2F&file=Information+TechnologyGuidelines+for+Cyber+Cafe+Rules%29+Rules%2C+2011+.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -1811,8 +1811,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Life+Insurance+Corporation+of+India+%28LIC%29+declared+a+protected+system%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://financialservices.gov.in/sites/default/files/cii/2026-01/LIC-CII.pdf",
+  "sourceExact": true,
   "entity": "LIC",
   "lineageId": null
  },
@@ -1851,8 +1851,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Amendment+to+the+First+Schedule+of+the+IT+Act%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://www.meity.gov.in/static/uploads/2024/02/239378-Gazette-Notification-No.-S.O.-4720E-dt.-26.09.2022-for-First-Schedule-amendment-under-IT-Act-2000-published-on-06.10.2022.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -1891,8 +1891,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Union+Bank+of+India+declared+a+protected+system%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://financialservices.gov.in/sites/default/files/cii/2026-01/UBI-CII.pdf",
+  "sourceExact": true,
   "entity": "Union Bank of India",
   "lineageId": null
  },
@@ -1931,8 +1931,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Punjab+National+Bank+declared+a+protected+system%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://financialservices.gov.in/sites/default/files/cii/2026-01/PNB-CII.pdf",
+  "sourceExact": true,
   "entity": "Punjab National Bank",
   "lineageId": null
  },
@@ -1971,8 +1971,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Bank+of+Baroda+declared+a+protected+system%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://financialservices.gov.in/sites/default/files/cii/2026-01/BOB-CII.pdf",
+  "sourceExact": true,
   "entity": "Bank of Baroda",
   "lineageId": null
  },
@@ -2011,8 +2011,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22State+Bank+of+India+declared+a+protected+system%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://financialservices.gov.in/sites/default/files/cii/2026-01/SBI-CII.pdf",
+  "sourceExact": true,
   "entity": "State Bank of India",
   "lineageId": null
  },
@@ -2091,8 +2091,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Axis+Bank+declared+a+protected+system%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://financialservices.gov.in/sites/default/files/cii/2026-01/Axis-Bank-CII.pdf",
+  "sourceExact": true,
   "entity": "Axis Bank",
   "lineageId": null
  },
@@ -2131,8 +2131,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Kotak+Mahindra+Bank+declared+a+protected+system%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://financialservices.gov.in/sites/default/files/cii/2026-01/Kotak-Bank-CII.pdf",
+  "sourceExact": true,
   "entity": "Kotak Mahindra Bank",
   "lineageId": null
  },
@@ -2171,8 +2171,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Canara+Bank+declared+a+protected+system%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://financialservices.gov.in/sites/default/files/cii/2026-01/Canara-Bank-CII.pdf",
+  "sourceExact": true,
   "entity": "Canara Bank",
   "lineageId": null
  },
@@ -2211,8 +2211,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Establishment+of+three+Grievance+Appellate+Committees+%28GACs%29+under+the+2021+IT+Rules%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1894258",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -2251,8 +2251,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22HDFC+Bank+declared+a+protected+system+%28further+resources%29%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://financialservices.gov.in/sites/default/files/cii/2026-01/HDFC-Addl-CII.pdf",
+  "sourceExact": true,
   "entity": "HDFC Bank",
   "lineageId": null
  },
@@ -2291,8 +2291,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22ICICI+Bank+declared+a+protected+system+%28further+resources%29%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://financialservices.gov.in/sites/default/files/cii/2026-01/ICICI-Addl-CII.pdf",
+  "sourceExact": true,
   "entity": "ICICI Bank",
   "lineageId": null
  },
@@ -2371,8 +2371,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Bank+of+India+declared+protected+systems%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://financialservices.gov.in/sites/default/files/cii/2026-01/BOI-CII.pdf",
+  "sourceExact": true,
   "entity": "Bank of India",
   "lineageId": null
  },
@@ -2411,8 +2411,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Central+Bank+of+India+declared+a+protected+system%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://financialservices.gov.in/sites/default/files/cii/2026-01/Central-Bank-CII.pdf",
+  "sourceExact": true,
   "entity": "Bank of India",
   "lineageId": null
  },
@@ -2451,8 +2451,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Paytm+Payments+Bank+Ltd+declared+a+protected+system%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://financialservices.gov.in/sites/default/files/cii/2026-01/PayTM-Payments-Bank-CII.pdf",
+  "sourceExact": true,
   "entity": "Paytm Payments Bank",
   "lineageId": null
  },
@@ -2491,8 +2491,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22YES+Bank+declared+a+protected+system%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://financialservices.gov.in/sites/default/files/cii/2026-01/Yes-Bank-CII.pdf",
+  "sourceExact": true,
   "entity": "YES Bank",
   "lineageId": null
  },
@@ -2531,8 +2531,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22IDBI+Bank+Ltd+declared+a+protected+system%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://financialservices.gov.in/sites/default/files/cii/2026-01/IDBI-Bank-CII.pdf",
+  "sourceExact": true,
   "entity": "IDBI Bank",
   "lineageId": null
  },
@@ -2571,8 +2571,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Indian+Bank+declared+a+protected+system%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://www.meity.gov.in/static/uploads/2024/03/247629-MeitY-Gazette-Notification-26th-July-2023-Indian-Bank-CII-elements-as-Protected-System-us-70-of-IT-Act-2000.pdf",
+  "sourceExact": true,
   "entity": "Indian Bank",
   "lineageId": null
  },
@@ -3137,8 +3137,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "indiacode.nic.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Digital+Information+Security+in+Healthcare+Act+%28DISHA%29%22+India+Code+full+text",
-  "sourceExact": false,
+  "sourceUrl": "https://main.mohfw.gov.in/newshighlights/comments-draft-digital-information-security-health-care-actdisha",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -3259,8 +3259,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Telecommunications+%28Administration+of+Digital+Bharat+Nidhi%29+Rules%2C+2024%22+dot.gov.in+%2F+trai.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.trai.gov.in/sites/default/files/2024-09/Telecommunications_30082024.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -3342,8 +3342,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Telecommunications+%28Telecom+Cyber+Security%29+Rules%2C+2024%22+dot.gov.in+%2F+trai.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.dot.gov.in/static/uploads/2025/07/bad057ea19930a8c58cb45d7631e1ace.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -3384,8 +3384,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Telecommunications+%28Critical+Telecommunication+Infrastructure%29+Rules%2C+2024%22+dot.gov.in+%2F+trai.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://eservices.dot.gov.in/sites/default/files/circular-notifications/Critical%20Telecommunication%20Infrastructure%20Rules,%202024_0.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -3424,8 +3424,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Telecommunications+%28Temporary+Suspension+of+Services%29+Rules%2C+2024%22+dot.gov.in+%2F+trai.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://eservices.dot.gov.in/sites/default/files/circular-notifications/temporary-suspension-of-services-rules-2024.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -3464,8 +3464,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Telecommunications+%28Procedures+and+Safeguards+for+Lawful+Interception+of+Messages%29+Rules%2C+2024%22+dot.gov.in+%2F+trai.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://egazette.gov.in/WriteReadData/2024/256724.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -3549,8 +3549,8 @@
    "ITU Radio Regulations"
   ],
   "source": "dot.gov.in / trai.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Telecommunications+%28Amateur+Services%29+Rules%2C+2024%22+dot.gov.in+%2F+trai.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://eservices.dot.gov.in/sites/default/files/circular-notifications/amateur-services-rules-2024.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -5046,8 +5046,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22DPDP+Act+-+enforcement+%2F+commencement+notification%2C+2025%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://www.meity.gov.in/static/uploads/2025/11/c56ceae6c383460ca69577428d36828b.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -5086,8 +5086,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Establishment+of+the+Data+Protection+Board+of+India%2C+2025%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://www.meity.gov.in/static/uploads/2025/11/53450e6e5dc0bfa85ebd78686cadad39.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -5126,8 +5126,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "meity.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Draft+National+Data+Governance+Framework+Policy%22+meity.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.meity.gov.in/writereaddata/files/National Data Governance Framework Policy_26 May 2022.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -5206,8 +5206,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "indiacode.nic.in",
-  "sourceUrl": "https://www.google.com/search?q=%22The+Aadhaar+and+Other+Laws+%28Amendment%29+Act%2C+2019%22+India+Code+full+text",
-  "sourceExact": false,
+  "sourceUrl": "https://uidai.gov.in/images/news/Amendment_Act_2019.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -5288,8 +5288,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "uidai.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22The+UIDAI+%28Transaction+of+Business+at+Meetings+of+the+Authority%29+Regulations%2C+2016%22+uidai.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://uidai.gov.in/pu/about-uidai/legal-framework/updated-regulation/16315-unique-identification-authority-of-india-transaction-of-business-at-meetings-of-the-authority-regulations-2016.html",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -5568,8 +5568,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Establishment+of+the+Unique+Identification+Authority+of+India+%28UIDAI%29%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://uidai.gov.in/images/notification_authority_13072016.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -5648,8 +5648,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Appointment+of+the+Chairperson+and+Members+of+UIDAI%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://uidai.gov.in/images/notification_appointment_part_time_chairperson_members_uidai_14092016.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -5688,8 +5688,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Enforcement+of+sections+1+to+10+and+24+to+47+of+the+Aadhaar+Act%2C+2016%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://uidai.gov.in/images/notification_regarding_enforcing_provisions_of_sections1to10_24to47_14092016.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -5728,8 +5728,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22D%2Fo+Food+%26+PD+notification+under+section+7+%28Aadhaar+requirement+for+NFSA+foodgrains%29%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://egazette.gov.in/WriteReadData/2017/174131.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": "so-371e"
  },
@@ -6811,8 +6811,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "meity.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Gazette+notification+of+the+Policy+on+Use+of+IT+Resources+of+the+Government+of+India%22+meity.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://egovstandards.gov.in/sites/default/files/2021-07/Policy%20on%20use%20of%20IT%20Resources%20of%20Government%20of%20India.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -6851,8 +6851,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "meity.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22e-Waste+%28Management+and+Handling%29+Rules%22+meity.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://cpcb.nic.in/displaypdf.php?id=aHdtZC9FX3dhc3RlX3J1bGVzXzIwMTYuUERG",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -6971,8 +6971,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Extension+of+the+DigiDhan+Mission%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://www.meity.gov.in/writereaddata/files/digidhan-mission.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -7171,8 +7171,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "meity.gov.in / ism.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22National+Policy+on+Software+Products%2C+2019%22+meity.gov.in+%2F+ism.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.meity.gov.in/static/uploads/2024/02/national_policy_on_software_products-2019.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -7697,8 +7697,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "rbi.org.in",
-  "sourceUrl": "https://www.google.com/search?q=%22RBI+Master+Direction+on+Regulation+of+Payment+Aggregators+and+Payment+Gateways%2C+2020%22+rbi.org.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=11822&Mode=0",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -7737,8 +7737,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "rbi.org.in",
-  "sourceUrl": "https://www.google.com/search?q=%22RBI+framework+on+Tokenisation+of+Card+Transactions%2C+2019-2022%22+rbi.org.in",
-  "sourceExact": false,
+  "sourceUrl": "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=12159&Mode=0",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -7779,8 +7779,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "rbi.org.in",
-  "sourceUrl": "https://www.google.com/search?q=%22RBI+Guidelines+on+Digital+Lending%2C+2022%22+rbi.org.in",
-  "sourceExact": false,
+  "sourceUrl": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/GUIDELINESDIGITALLENDINGD5C35A71D8124A0E92AEB940A7D25BB3.PDF",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -7821,8 +7821,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "rbi.org.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Master+Direction+-+NBFC-Account+Aggregator+%28Reserve+Bank%29+Directions%2C+2016%22+rbi.org.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10598",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -7861,8 +7861,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "rbi.org.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Master+Direction+-+NBFC-Peer+to+Peer+Lending+Platform+%28Reserve+Bank%29+Directions%2C+2017%22+rbi.org.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=11137",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -7901,8 +7901,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Digital+Rupee+%28Central+Bank+Digital+Currency%2C+e-Rupee%29%2C+2022%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://rbidocs.rbi.org.in/rdocs/PublicationReport/Pdfs/CONCEPTNOTEACB531172E0B4DFC9A6E506C2C24FFB6.PDF",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -7946,8 +7946,8 @@
    "VASP standards)"
   ],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Virtual+Digital+Asset+service+providers+brought+under+PMLA%2C+2023%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://fiuindia.gov.in/pdfs/downloads/VDASP04072023.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -8386,8 +8386,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dst.gov.in / meity.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22GI+Cloud+%28MeghRaj%29+Policy%2C+2014%22+dst.gov.in+%2F+meity.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://web.archive.org/web/20240521050549/https://www.meity.gov.in/writereaddata/files/GI-Cloud%20Adoption%20and%20Implementation%20Roadmap(1)_0.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -9191,8 +9191,8 @@
    "Nagoya Protocol"
   ],
   "source": "dbtindia.gov.in / moef.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Biological+Diversity+Rules%2C+2004%22+dbtindia.gov.in+%2F+moef.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://upload.indiacode.nic.in/showfile?actid=AC_CEN_16_18_000010_200318_1517807327125&type=rule&filename=Biodiversity+Rules.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": "biodiversity"
  },
@@ -9275,8 +9275,8 @@
    "Cartagena Protocol on Biosafety"
   ],
   "source": "dbtindia.gov.in / moef.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Guidelines+for+Research+in+Transgenic+Plants%2C+1998%22+dbtindia.gov.in+%2F+moef.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://biosafety.icar.gov.in/wp-content/uploads/2015/11/Rev_Guidelines_Research1998.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -9317,8 +9317,8 @@
    "Cartagena Protocol on Biosafety"
   ],
   "source": "dbtindia.gov.in / moef.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Regulations+and+Guidelines+on+Biosafety+of+Recombinant+DNA+Research+and+Biocontainment%2C+2017%22+dbtindia.gov.in+%2F+moef.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://dbtindia.gov.in/sites/default/files/uploadfiles/Regulations_&_Guidelines_for_Reocminant_DNA_Research_and_Biocontainment,2017.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -9359,8 +9359,8 @@
    "Cartagena Protocol on Biosafety"
   ],
   "source": "dbtindia.gov.in / moef.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22List+of+Infective+Micro-organisms+by+Risk+Group%2C+2021%22+dbtindia.gov.in+%2F+moef.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://dbtindia.gov.in/latest-announcement/list-infective-microorganisms-corresponding-different-risk-groups-2021",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -9401,8 +9401,8 @@
    "Cartagena Protocol on Biosafety"
   ],
   "source": "dbtindia.gov.in / moef.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Guidelines+for+the+Safety+Assessment+of+Genome-Edited+Plants%2C+2022%22+dbtindia.gov.in+%2F+moef.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://dbtindia.gov.in/sites/default/files/Final_%2011052022_Annexure-I,%20Genome_Edited_Plants_2022_Hyperlink.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -9441,8 +9441,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dbtindia.gov.in / moef.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22National+Biotechnology+Development+Strategy%2C+2015-2020%22+dbtindia.gov.in+%2F+moef.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://dbtindia.gov.in/sites/default/files/DBT_Book-_29-december_2015.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -9521,8 +9521,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dbtindia.gov.in / moef.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22National+Guidelines+for+Stem+Cell+Research%2C+2017%22+dbtindia.gov.in+%2F+moef.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://dbtindia.gov.in/regulations-guidelines/guidelines/national-guidelines-stem-cell-research-%E2%80%93-2017",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -9564,8 +9564,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "indiacode.nic.in",
-  "sourceUrl": "https://www.google.com/search?q=%22The+Assisted+Reproductive+Technology+%28Regulation%29+Act%2C+2021%22+India+Code+full+text",
-  "sourceExact": false,
+  "sourceUrl": "https://www.indiacode.nic.in/bitstream/123456789/17031/1/aA2021-42.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -9606,8 +9606,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "indiacode.nic.in",
-  "sourceUrl": "https://www.google.com/search?q=%22The+Surrogacy+%28Regulation%29+Act%2C+2021%22+India+Code+full+text",
-  "sourceExact": false,
+  "sourceUrl": "https://www.indiacode.nic.in/bitstream/123456789/17046/1/A2021-47.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -9732,8 +9732,8 @@
    "IAEA safeguards"
   ],
   "source": "indiacode.nic.in",
-  "sourceUrl": "https://www.google.com/search?q=%22The+Atomic+Energy+%28Amendment%29+Act%2C+2015%22+India+Code+full+text",
-  "sourceExact": false,
+  "sourceUrl": "https://www.barc.gov.in/about/ae_amend_2015_0116.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -9822,8 +9822,8 @@
    "IAEA BSS"
   ],
   "source": "https://www.aerb.gov.in/images/PDF/RPR2004-with-corrigendum.pdf",
-  "sourceUrl": "https://www.google.com/search?q=%22Atomic+Energy+%28Radiation+Protection%29+Rules%2C+2004%22+https%3A%2F%2Fwww.aerb.gov.in%2Fimages%2FPDF%2FRPR2004-with-corrigendum.pdf",
-  "sourceExact": false,
+  "sourceUrl": "https://www.aerb.gov.in/images/PDF/RPR2004-with-corrigendum.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -9862,8 +9862,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dae.gov.in / aerb.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Atomic+Energy+%28Safe+Disposal+of+Radioactive+Wastes%29+Rules%2C+1987%22+dae.gov.in+%2F+aerb.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.barc.gov.in/about/05.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -9902,8 +9902,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dae.gov.in / aerb.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Atomic+Energy+%28Factories%29+Rules%2C+1996%22+dae.gov.in+%2F+aerb.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.aerb.gov.in/images/PDF/FactoriesRules96.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -9942,8 +9942,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dae.gov.in / aerb.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Atomic+Energy+%28Working+of+the+Mines%2C+Minerals+and+Handling+of+Prescribed+Substances%29+Rules%2C+1984%22+dae.gov.in+%2F+aerb.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.aerb.gov.in/images/PDF/1.24-Atomic_Energy_Mines_Minerals_Prescribed_Substance_Rules-1984-PB.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -9984,8 +9984,8 @@
    "Convention on Supplementary Compensation"
   ],
   "source": "dae.gov.in / aerb.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Civil+Liability+for+Nuclear+Damage+Rules%2C+2011%22+dae.gov.in+%2F+aerb.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.barc.gov.in/about/12.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -10027,8 +10027,8 @@
    "IAEA"
   ],
   "source": "dae.gov.in / aerb.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Guidelines+for+Nuclear+Transfers+%28Exports%29%2C+2006%22+dae.gov.in+%2F+aerb.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.igcar.gov.in/IGCAR_Act/Guidelines_for_nuclear_transport.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -10109,8 +10109,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dae.gov.in / aerb.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Atomic+Energy+%28Radiation+Processing+of+Food+and+Allied+Products%29+Rules%2C+2012%22+dae.gov.in+%2F+aerb.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://upload.indiacode.nic.in/showfile?actid=AC_CEN_38_63_00001_196233_1517807321654&type=rule&filename=Rule_searchable.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -10283,8 +10283,8 @@
    "WTO"
   ],
   "source": "indiacode.nic.in",
-  "sourceUrl": "https://www.google.com/search?q=%22The+Foreign+Trade+%28Development+and+Regulation%29+Amendment+Act%2C+2010%22+India+Code+full+text",
-  "sourceExact": false,
+  "sourceUrl": "https://upload.indiacode.nic.in/showfile?actid=AC_CEN_10_10_00016_200521_1517807325143&filename=the_foreign_trade_development_regulation_amendment_act_2010_august_19_2010.pdf&type=regulation",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -10367,8 +10367,8 @@
    "WTO"
   ],
   "source": "dgft.gov.in / mea.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Foreign+Trade+Policy+%28FTP%29%2C+2023%22+dgft.gov.in+%2F+mea.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://content.dgft.gov.in/Website/dgftprod/61d61bc2-272e-4880-b96c-c8f685a3b244/Foreign%20Trade%20Policy%202023.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -10692,8 +10692,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "indiacode.nic.in",
-  "sourceUrl": "https://www.google.com/search?q=%22The+Mines+and+Minerals+%28Development+and+Regulation%29+Amendment+Act%2C+2015%22+India+Code+full+text",
-  "sourceExact": false,
+  "sourceUrl": "https://www.indiacode.nic.in/repealed-act/repealed_act_documents/A2015-10.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": "mmdr"
  },
@@ -10812,8 +10812,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "mines.gov.in / ibm.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Mineral+Concession+Rules%2C+1960%22+mines.gov.in+%2F+ibm.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://ibm.gov.in/writereaddata/files/07102014121521MCR%201960-26072012.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -10852,8 +10852,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "mines.gov.in / ibm.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Minerals+%28Other+than+Atomic+and+Hydro+Carbons+Energy+Minerals%29+Concession+Rules%2C+2016%22+mines.gov.in+%2F+ibm.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://ibm.gov.in/writereaddata/files/10202016094948MCR_2016_18092016%20from%20SKS.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -10892,8 +10892,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "mines.gov.in / ibm.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Atomic+Minerals+Concession+Rules%2C+2016%22+mines.gov.in+%2F+ibm.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://thc.nic.in/Central%20Governmental%20Rules/Atomic%20Minerals%20Concession%20Rules,%202016.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -10932,8 +10932,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "mines.gov.in / ibm.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Mineral+Conservation+and+Development+Rules%2C+2017%22+mines.gov.in+%2F+ibm.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://ibm.gov.in/writereaddata/files/04192017182323MCDR_2017.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -10972,8 +10972,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "mines.gov.in / ibm.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Mineral+%28Auction%29+Rules%2C+2015%22+mines.gov.in+%2F+ibm.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://ibm.gov.in/writereaddata/files/11222021124835Mineral_Auction_Rules_2015%20updated%20upto%2002112021.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -11052,8 +11052,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "mines.gov.in / ibm.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Minerals+%28Evidence+of+Mineral+Contents%29+Rules%2C+2015%22+mines.gov.in+%2F+ibm.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://ibm.gov.in/writereaddata/files/02032022105439Evidence%20of%20Mineral%20Rule_2015.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -11132,8 +11132,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "mines.gov.in / ibm.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Minerals+%28Other+than+Atomic+and+Hydro+Carbons+Energy+Minerals%29+Concession+Amendment+Rules%2C+2024%22+mines.gov.in+%2F+ibm.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://mines.gov.in/admin/storage/app/uploads/65fd6174b1a681711104372.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -11212,8 +11212,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "mines.gov.in / ibm.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22National+Mineral+Policy%2C+2019%22+mines.gov.in+%2F+ibm.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://mines.gov.in/webportal/nationalmineralpolicy",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -11300,8 +11300,8 @@
    "Chicago Convention"
   ],
   "source": "indiacode.nic.in",
-  "sourceUrl": "https://www.google.com/search?q=%22The+Aircraft+Act%2C+1934%22+India+Code+full+text",
-  "sourceExact": false,
+  "sourceUrl": "https://www.indiacode.nic.in/bitstream/123456789/2400/1/AAA1934____22.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -11343,8 +11343,8 @@
    "Chicago Convention"
   ],
   "source": "indiacode.nic.in",
-  "sourceUrl": "https://www.google.com/search?q=%22The+Bharatiya+Vayuyan+Adhiniyam%2C+2024%22+India+Code+full+text",
-  "sourceExact": false,
+  "sourceUrl": "https://www.indiacode.nic.in/bitstream/123456789/20589/1/aa2024-16.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -11388,8 +11388,8 @@
    "Chicago Convention"
   ],
   "source": "civilaviation.gov.in / dgca.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Unmanned+Aircraft+System+%28UAS%29+Rules%2C+2021%22+civilaviation.gov.in+%2F+dgca.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://digitalsky.dgca.gov.in/assets/files/UasRules.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -11433,8 +11433,8 @@
    "Chicago Convention"
   ],
   "source": "civilaviation.gov.in / dgca.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Drone+%28Amendment%29+Rules%2C+2022%22+civilaviation.gov.in+%2F+dgca.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.dgca.gov.in/digigov-portal/jsp/dgca/homePage/viewPDF.jsp?page=InventoryList/headerblock/drones/Drone+(Amendment)+Rules+2022.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -11478,8 +11478,8 @@
    "Chicago Convention"
   ],
   "source": "civilaviation.gov.in / dgca.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Drone+%28Amendment%29+Rules%2C+2023%22+civilaviation.gov.in+%2F+dgca.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.civilaviation.gov.in/sites/default/files/2023-10/Drone%20(Amendment)%20Rules,%202023.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -11521,8 +11521,8 @@
    "Chicago Convention"
   ],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22India%27s+Airspace+Map+for+Drone+Operations%2C+2021%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1757850&reg=3&lang=2",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -11564,8 +11564,8 @@
    "Chicago Convention"
   ],
   "source": "civilaviation.gov.in / dgca.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22PLI+Scheme+for+Drones+and+Drone+Components%2C+2021%22+civilaviation.gov.in+%2F+dgca.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "http://www.civilaviation.gov.in/sites/default/files/migration/Guidelines%20for%20the%20Operation%20of%20Production%20Linked%20Incentive%20Scheme%20(PLI)%20fro%20Drones%20and%20Drone%20Components%20(1).pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -11607,8 +11607,8 @@
    "Chicago Convention"
   ],
   "source": "egazette.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Drone+Import+Policy%2C+2022%22+eGazette+notification",
-  "sourceExact": false,
+  "sourceUrl": "https://www.civilaviation.gov.in/sites/default/files/migration/Drone_Import_Policy_9_Feb_2022.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -11652,8 +11652,8 @@
    "Chicago Convention"
   ],
   "source": "civilaviation.gov.in / dgca.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Draft+Civil+Drone+%28Promotion+and+Regulation%29+Bill%2C+2025%22+civilaviation.gov.in+%2F+dgca.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.civilaviation.gov.in/sites/default/files/2025-09/Draft%20Civil%20Drone%20(Promotion%20and%20Regulation)%20Bill%202025.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -11780,8 +11780,8 @@
    "IMO (WWRNS)"
   ],
   "source": "isro.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22NavIC+%2F+Indian+Regional+Navigation+Satellite+System+%28IRNSS%29%22+isro.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.isro.gov.in/Navic.html",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -11822,8 +11822,8 @@
    "ICAO SARPS"
   ],
   "source": "isro.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22GAGAN+%28GPS+Aided+GEO+Augmented+Navigation%29%22+isro.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.isro.gov.in/applications/step-towards-initial-satellite-based-navigation-services-india-gagan-irnss",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -12161,8 +12161,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "heavyindustries.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22National+Electric+Mobility+Mission+Plan+%28NEMMP%29+2020%22+heavyindustries.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://heavyindustries.gov.in/sites/default/files/2023-07/NEMMP-2020.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -12201,8 +12201,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "heavyindustries.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22FAME+India+Scheme%2C+Phase+I%2C+2015%22+heavyindustries.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://heavyindustries.gov.in/sites/default/files/2023-09/OM_FAME_India.PDF",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -12241,8 +12241,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "heavyindustries.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22FAME+India+Scheme%2C+Phase+II%2C+2019%22+heavyindustries.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://fame2.heavyindustries.gov.in/WriteReadData/userfiles/publicationNotificationFAME%20II%208March2019.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -12281,8 +12281,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "heavyindustries.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22PLI+Scheme+for+Advanced+Chemistry+Cell+%28ACC%29+Battery+Storage%2C+2021%22+heavyindustries.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://heavyindustries.gov.in/en/pli-scheme-national-programme-advanced-chemistry-cell-acc-battery-storage",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -12321,8 +12321,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "heavyindustries.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22PLI+Scheme+for+Automobile+and+Auto+Components+%28PLI-Auto%29%2C+2021%22+heavyindustries.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://heavyindustries.gov.in/sites/default/files/2024-01/pli-scheme-for-automobile-and-auto-components-industry.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -12361,8 +12361,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "heavyindustries.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22PM+E-DRIVE+Scheme%2C+2024%22+heavyindustries.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://pmedrive.heavyindustries.gov.in/docs/policy_document/Operatioal%20Guidelines%20dt.%2030.09.2024%20for%20P%20E-DRIVE.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -12401,8 +12401,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "heavyindustries.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Guidelines+for+Installation+and+Operation+of+EV+Charging+Infrastructure%2C+2024%22+heavyindustries.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://beeindia.gov.in/sites/default/files/Guidelines%20and%20Standards%20for%20EVCI%20dated%2017-09-2024_compressed.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -12441,8 +12441,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "heavyindustries.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Draft+Battery+Swapping+Policy%2C+2022%22+heavyindustries.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.niti.gov.in/sites/default/files/2022-04/20220420_Battery_Swapping_Policy_Draft.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -12483,8 +12483,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "heavyindustries.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Battery+Waste+Management+Rules%2C+2022%22+heavyindustries.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://egazette.nic.in/WriteReadData/2022/238351.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -12526,8 +12526,8 @@
    "Mission Innovation"
   ],
   "source": "https://mnre.gov.in/en/national-green-hydrogen-mission/",
-  "sourceUrl": "https://www.google.com/search?q=%22National+Green+Hydrogen+Mission%2C+2023%22+https%3A%2F%2Fmnre.gov.in%2Fen%2Fnational-green-hydrogen-mission%2F",
-  "sourceExact": false,
+  "sourceUrl": "https://mnre.gov.in/en/national-green-hydrogen-mission/",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -12569,8 +12569,8 @@
    "ISA"
   ],
   "source": "mnre.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Jawaharlal+Nehru+National+Solar+Mission+%28National+Solar+Mission%29%2C+2010%22+mnre.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://mnre.gov.in/pdf/mission-document-JNNSM.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -12612,8 +12612,8 @@
    "ISA"
   ],
   "source": "mnre.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22PLI+Scheme+for+High-Efficiency+Solar+PV+Modules%2C+2021%22+mnre.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://mnre.gov.in/en/production-linked-incentive-pli/",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -12654,8 +12654,8 @@
    "Paris Agreement"
   ],
   "source": "mnre.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Electricity+%28Promoting+Renewable+Energy+through+Green+Energy+Open+Access%29+Rules%2C+2022%22+mnre.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://mnre.gov.in/en/centre-rules/",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -12694,8 +12694,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dpiit.gov.in / makeinindia.com",
-  "sourceUrl": "https://www.google.com/search?q=%22Make+in+India+%2F+Make+in+India+2.0%22+dpiit.gov.in+%2F+makeinindia.com",
-  "sourceExact": false,
+  "sourceUrl": "https://www.dpiit.gov.in/ministry/about-us/details/Title=Make-in-India-(MII)-ITMwETMtQWa",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -12734,8 +12734,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dpiit.gov.in / makeinindia.com",
-  "sourceUrl": "https://www.google.com/search?q=%22National+Manufacturing+Mission%2C+2025%22+dpiit.gov.in+%2F+makeinindia.com",
-  "sourceExact": false,
+  "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2098392",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -12774,8 +12774,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dpiit.gov.in / makeinindia.com",
-  "sourceUrl": "https://www.google.com/search?q=%22National+Strategy+for+Additive+Manufacturing%2C+2022%22+dpiit.gov.in+%2F+makeinindia.com",
-  "sourceExact": false,
+  "sourceUrl": "https://www.meity.gov.in/content/national-strategy-additive-manufacturing",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -12814,8 +12814,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "dpiit.gov.in / makeinindia.com",
-  "sourceUrl": "https://www.google.com/search?q=%22SAMARTH+Udyog+Bharat+4.0%22+dpiit.gov.in+%2F+makeinindia.com",
-  "sourceExact": false,
+  "sourceUrl": "https://heavyindustries.gov.in/en/samarth-udyog-bharat-40",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -13016,8 +13016,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "agricoop.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Digital+Agriculture+Mission%2C+2024%22+agricoop.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://agriwelfare.gov.in/Documents/pib_%20DigitalAgricultureMission.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -13059,8 +13059,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "agricoop.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22AgriStack+%28farmer+registry+and+agri+data+infrastructure%29%22+agricoop.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://agristack.gov.in/",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -13104,8 +13104,8 @@
    "WHO GMRF"
   ],
   "source": "cdsco.gov.in / mohfw.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Medical+Devices+Rules%2C+2017%22+cdsco.gov.in+%2F+mohfw.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/m_device/Medical%20Devices%20Rules,%202017.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -13149,8 +13149,8 @@
    "WHO GCP"
   ],
   "source": "cdsco.gov.in / mohfw.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22New+Drugs+and+Clinical+Trials+Rules%2C+2019%22+cdsco.gov.in+%2F+mohfw.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/new_DC_rules/NEW%20DRUGS%20ANDctrS%20RULE,%202019.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -13194,8 +13194,8 @@
    "WHO digital-health guidance"
   ],
   "source": "cdsco.gov.in / mohfw.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22Telemedicine+Practice+Guidelines%2C+2020%22+cdsco.gov.in+%2F+mohfw.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://www.aiims.edu/images/pdf/notice/Telemedicine_GOI.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  },
@@ -13234,8 +13234,8 @@
   "international": null,
   "intlRegimes": [],
   "source": "cdsco.gov.in / mohfw.gov.in",
-  "sourceUrl": "https://www.google.com/search?q=%22National+Digital+Health+Blueprint+%2F+Mission+%28ABDM+foundation%29%2C+2019%22+cdsco.gov.in+%2F+mohfw.gov.in",
-  "sourceExact": false,
+  "sourceUrl": "https://abdm.gov.in/strapicms/uploads/ndhb_1_56ec695bc8.pdf",
+  "sourceExact": true,
   "entity": null,
   "lineageId": null
  }
